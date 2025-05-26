@@ -1,0 +1,47 @@
+site_name: Portifólio IA
+
+repo_name: portifolio-IA
+repo_url: https://github.com/JeffersonSenaa/portifolio-IA
+
+theme: 
+  language: pt-BR
+  icon:
+    repo: fontawesome/brands/github
+  palette: 
+    - scheme: default
+      accent: indigo
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    - scheme: slate
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  name: material
+  logo:  
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - content.code.copy
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      pygments_lang_class: true
+      auto_title: true
+      linenums: true
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+
+# plugins:
+#   - search
+#   - git-revision-date-localized
+
+extra_css:
+  - site/stylesheets/extra.css
+
+nav:
+  - Home: index.md
