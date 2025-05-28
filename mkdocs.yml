@@ -20,7 +20,7 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   name: material
-  logo:  
+  logo: 
   features:
     - navigation.tabs
     - navigation.tabs.sticky
@@ -45,3 +45,4 @@ extra_css:
 
 nav:
   - Home: index.md
+  - Portifolio 2: portifolio-2.md
