@@ -420,3 +420,20 @@ AGs são usados em **problemas de otimização complexos**, onde não há uma so
     - Variante que usa diferenças entre soluções para gerar novas.
 5. **Algoritmos Genéticos com Codificação Real:**
     - Ao invés de bits, usam números reais (mais comum em otimização contínua).
+
+
+## **Referências**
+
+* RUSSELL, Stuart J.; NORVIG, Peter. *Inteligência Artificial*. 3. ed. Rio de Janeiro: Elsevier, 2013.
+  (Título original: *Artificial Intelligence: A Modern Approach*)
+* LUGER, George F. *Inteligência Artificial: estruturas e estratégias para a resolução de problemas complexos*. 6. ed. Pearson, 2009.
+* GOLDBERG, David E. *Algoritmos Genéticos em Busca, Otimização e Aprendizado de Máquina*. Pearson Education, 1989.
+* HOLLAND, John H. *Adaptation in Natural and Artificial Systems*. MIT Press, 1992.
+* MITCHELL, Melanie. *An Introduction to Genetic Algorithms*. MIT Press, 1996.
+* GOODFELLOW, Ian; BENGIO, Yoshua; COURVILLE, Aaron. *Deep Learning*. MIT Press, 2016. Disponível em: [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/)
+* HASTIE, Trevor; TIBSHIRANI, Robert; FRIEDMAN, Jerome. *The Elements of Statistical Learning*. Springer, 2009.
+* OpenAI Blog – AI concepts and research: [https://openai.com/research](https://openai.com/research)
+* Towards Data Science – Medium Publication: [https://towardsdatascience.com/](https://towardsdatascience.com/)
+* Geeks for Geeks – AI/ML tutorials: [https://www.geeksforgeeks.org/fundamentals-of-artificial-intelligence/](https://www.geeksforgeeks.org/fundamentals-of-artificial-intelligence/)
+* Stanford University – AI Course Materials: [https://cs221.stanford.edu/](https://cs221.stanford.edu/)
+
