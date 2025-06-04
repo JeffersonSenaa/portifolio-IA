@@ -10,12 +10,14 @@ theme:
   palette: 
     - scheme: default
       accent: indigo
+      primary: indigo
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
 
     - scheme: slate
       accent: indigo
+      primary: indigo
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -25,6 +27,11 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - content.code.copy
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.share
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -35,14 +42,34 @@ markdown_extensions:
   - pymdownx.superfences
   - attr_list
   - md_in_html
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - footnotes
 
-# plugins:
-#   - search
-#   - git-revision-date-localized
+plugins:
+  - search
 
 extra_css:
-  - site/stylesheets/extra.css
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/JeffersonSenaa/portifolio-IA
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/jefferson-sena/
 
 nav:
   - Home: index.md
   - Portifolio 2: portifolio-2.md
+  - Portifolio 3: portifolio-3.md

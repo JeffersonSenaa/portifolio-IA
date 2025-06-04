@@ -1,9 +1,28 @@
 # Portfólio de Inteligência Artificial
 
-Este repositório apresenta os **portfólios desenvolvidos durante a disciplina de Inteligência Artificial**, no curso de **Engenharia de Software da Universidade de Brasília**.
+Este repositório apresenta os portfólios desenvolvidos durante a disciplina de Inteligência Artificial, no curso de Engenharia de Software da Universidade de Brasília.
 
-Baseado nos princípios pedagógicos de Benigna Maria de Freitas Villas Boas (2008), este portfólio é uma **coleção comentada e reflexiva** de conteúdos, conceitos, algoritmos e análises voltados à Inteligência Artificial, elaboradas ao longo da disciplina. É mais do que uma simples reunião de conteúdos, o portfólio é uma ferramenta de **aprendizagem ativa**, **autoavaliação** e **demonstração de competências**.
+Baseado nos princípios pedagógicos de Benigna Maria de Freitas Villas Boas (2008), este portfólio é uma coleção comentada e reflexiva de conteúdos, conceitos, algoritmos e análises voltados à Inteligência Artificial, elaboradas ao longo da disciplina. É mais do que uma simples reunião de conteúdos, o portfólio é uma ferramenta de aprendizagem ativa, autoavaliação e demonstração de competências.
 
+<div class="grid cards" markdown>
+
+-   :fontawesome-solid-brain: __[Portfólio 2](portifolio-2.md)__
+
+    ---
+
+    Exploração de algoritmos de busca cega e informada, incluindo implementações práticas e análises de desempenho.
+
+    [:octicons-arrow-right-24: Acessar](portifolio-2.md)
+
+-   :fontawesome-solid-robot: __[Portfólio 3](portifolio-3.md)__
+
+    ---
+
+    Implementação e análise de Problemas de Satisfação de Restrições (CSPs) com exemplos práticos e otimizações.
+
+    [:octicons-arrow-right-24: Acessar](portifolio-3.md)
+
+</div>
 
 ## Objetivos do Portfólio
 
@@ -51,7 +70,6 @@ Os temas do portifólio foram estruturados segundo os seguintes elementos:
 - [Python](https://www.python.org/) – Implementação dos algoritmos
 - [MkDocs](https://www.mkdocs.org/) – Estrutura e navegação do portfólio
 - [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) – Tema visual moderno
-- [Jupyter Notebooks](https://jupyter.org/) – Códigos interativos e análises (quando aplicável)
 
 ---
 
@@ -63,9 +81,13 @@ Todos os materiais são **referenciados** e **comentados**, em conformidade com 
 
 ---
 
-##  Autor
+##  Autor: Jefferson Sena
+<div class="grid" markdown>
 
-**Jefferson Sena**   [LinkedIn](https://www.linkedin.com/in/jeffersonsenaa) | [GitHub](https://github.com/JeffersonSenaa) </br>
+-   :fontawesome-brands-github: [GitHub](https://github.com/JeffersonSenaa/portifolio-IA)
+-   :fontawesome-brands-linkedin: [LinkedIn](https://www.linkedin.com/in/jeffersonsenaa)
+
+</div>
 Estudante de Engenharia de Software - Universidade de Brasília (UnB)  
 Repositório acadêmico desenvolvido para a disciplina de Inteligência Artificial  
 
@@ -80,3 +102,7 @@ Este material é disponibilizado sob a [Licença MIT](LICENSE). Uso educacional 
 > “O portfólio é um instrumento de avaliação e reflexão que permite que o estudante se reconheça em sua própria trajetória de aprendizagem.”  
 > — *Benigna Maria de Freitas Villas Boas (2008)*
 
+
+</br>
+</br>
+</br>
