@@ -10,10 +10,15 @@ Os **agentes lógicos** ou também denominados **agentes baseados em conheciment
 
 Um agente lógico, tem como capacidade central a **Representação do Conhecimento**. Por sua vez, este é componente que busca permitir que o agente codifique informações sobre o mundo de forma explícita e simbólica, utilizando **linguagens formais baseadas em lógica**, predominantemente a **lógica proposicional** e a **lógica de primeira ordem (LPO)**.
 
-* **Lógica Proposicional:** Utilização de proposições (afirmações que podem ser verdadeiras ou falsas, dependendo do contexto) e conectivos lógicos ($\land$ (e), $\lor$ (ou), $\neg$ (não), $\Rightarrow$ (implica), $\Leftrightarrow$ (se e somente se)) para construir sentenças complexas. É útil para representar fatos atômicos e suas inter-relações booleanas. Por exemplo, "É dia" $\land$ "Está sol" $\Rightarrow$ "Vou à praia".
-* **Lógica de Primeira Ordem (LPO):** Expande a lógica proposicional introduzindo **predicados**, **variáveis**, **quantificadores** ($\forall$ (para todo), $\exists$ (existe)) e **funções**. Isso confere à LPO um poder expressivo muito maior, que permite representar relações entre objetos, propriedades de objetos e generalizações. Por exemplo, $\forall x (Pessoa(x) \Rightarrow Mortal(x))$ (Para toda pessoa x, x é mortal). Esta capacidade é crucial para modelar ambientes complexos, onde entidades, atributos e relações precisam ser representados com difentes níveis de granularidade.
+* **Lógica Proposicional:** Utilização de proposições (afirmações que podem ser verdadeiras ou falsas, dependendo do contexto) e conectivos lógicos como **"e" (and)**, **"ou" (or)**, **"não" (not)**, **"implica" (if...then)** e **"se e somente se" (iff)** na construção de sentenças complexas. É útil para representar fatos atômicos e suas inter-relações booleanas.
+  Exemplo: *"É dia" e "Está sol" implica "Vou à praia".*
 
-O conhecimento é armazenado numa **Base de Conhecimento (BC)**, sendo um conjunto de sentenças (axiomas e fatos) expressas na linguagem lógica escolhida. Cada sentença na Base de Conhecimento contribui para a compreensão do agente sobre o estado do ambiente e as regras que o governam.
+* **Lógica de Primeira Ordem (LPO):** Expande a lógica proposicional introduzindo **predicados**, **variáveis**, **quantificadores** como **"para todo"** e **"existe"**, além de **funções**. Isso confere à LPO um poder de expressão muito maior que permite representar relações entre objetos, propriedades de objetos e generalizações.
+  Exemplo: *Para toda pessoa x, se x é uma pessoa, então x é mortal.*
+  É uma capacidade crucial para modelar ambientes complexos, onde há entidades, atributos e relações que precisam ser representados com diferentes níveis de detalhamento.
+
+
+A partir disso, o conhecimento é armazenado numa **Base de Conhecimento (BC)**, sendo um conjunto de sentenças (axiomas e fatos) expressas na linguagem lógica escolhida. Cada sentença na Base de Conhecimento contribui para a compreensão do agente sobre o estado do ambiente e as regras que o governam.
 
 ---
 
