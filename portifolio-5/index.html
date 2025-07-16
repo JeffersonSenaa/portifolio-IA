@@ -1,0 +1,1791 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../portifolio-4/">
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
+    
+    
+      
+        <title>Portifolio 5 - Portifólio IA</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#portfolio-5-raciocinio-probabilistico-e-estimacao-de-estados" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href=".." title="Portifólio IA" class="md-header__button md-logo" aria-label="Portifólio IA" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Portifólio IA
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Portifolio 5
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Compartilhar" aria-label="Compartilhar" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/JeffersonSenaa/portifolio-IA" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    portifolio-IA
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../portifolio-2/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Portifolio 2
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../portifolio-3/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Portifolio 3
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../portifolio-4/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Portifolio 4
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Portifolio 5
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Portifólio IA" class="md-nav__button md-logo" aria-label="Portifólio IA" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Portifólio IA
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/JeffersonSenaa/portifolio-IA" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    portifolio-IA
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../portifolio-2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Portifolio 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../portifolio-3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Portifolio 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../portifolio-4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Portifolio 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Portifolio 5
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Portifolio 5
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-quantificando-incertezas-e-redes-bayesianas" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Quantificando Incertezas e Redes Bayesianas
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Quantificando Incertezas e Redes Bayesianas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#notacao-basica-de-probabilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Notação Básica de Probabilidade
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#independencia-e-a-regra-de-bayes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Independência e a Regra de Bayes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#redes-bayesianas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Redes Bayesianas
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-raciocinio-probabilistico-ao-longo-do-tempo" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Raciocínio Probabilístico ao Longo do Tempo
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Raciocínio Probabilístico ao Longo do Tempo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#inferencia-em-modelos-temporais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inferência em Modelos Temporais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modelo-oculto-de-markov-hmm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modelo Oculto de Markov (HMM)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-filtros-de-kalman" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Filtros de Kalman
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Filtros de Kalman">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#equacoes-do-filtro-de-kalman" class="md-nav__link">
+    <span class="md-ellipsis">
+      Equações do Filtro de Kalman
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exemplo-de-aplicacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemplo de Aplicação
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Referências
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-quantificando-incertezas-e-redes-bayesianas" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Quantificando Incertezas e Redes Bayesianas
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Quantificando Incertezas e Redes Bayesianas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#notacao-basica-de-probabilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Notação Básica de Probabilidade
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#independencia-e-a-regra-de-bayes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Independência e a Regra de Bayes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#redes-bayesianas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Redes Bayesianas
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-raciocinio-probabilistico-ao-longo-do-tempo" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Raciocínio Probabilístico ao Longo do Tempo
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Raciocínio Probabilístico ao Longo do Tempo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#inferencia-em-modelos-temporais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inferência em Modelos Temporais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modelo-oculto-de-markov-hmm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modelo Oculto de Markov (HMM)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-filtros-de-kalman" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Filtros de Kalman
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Filtros de Kalman">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#equacoes-do-filtro-de-kalman" class="md-nav__link">
+    <span class="md-ellipsis">
+      Equações do Filtro de Kalman
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exemplo-de-aplicacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemplo de Aplicação
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Referências
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="portfolio-5-raciocinio-probabilistico-e-estimacao-de-estados">Portfólio 5: Raciocínio Probabilístico e Estimação de Estados</h1>
+<h2 id="introducao">Introdução</h2>
+<p>Esta parte do portfólio busca explorar os conceitos fundamentais em Inteligência Artificial que lidam com a <strong>incerteza</strong>, realizam <strong>inferência</strong> e estimam <strong>estados em ambientes dinâmicos</strong>. Será abordado a <strong>quantificação da incerteza</strong> e o poder das <strong>Redes Bayesianas</strong>, passando pelo <strong>raciocínio probabilístico ao longo do tempo</strong>, até os <strong>Filtros de Kalman</strong> para estimação ótima de estados.</p>
+<h2 id="1-quantificando-incertezas-e-redes-bayesianas">1. Quantificando Incertezas e Redes Bayesianas</h2>
+<p>Os Agentes de IA no mundo real, por sua vez, precisam <strong>lidar com a incerteza</strong>. Esse fator, ocorre devido a fatores como a observabilidade parcial do ambiente, o não determinismo das ações ou presença de adversários. Uma abordagem inicial, sendo vista em agentes lógicos, é envolver o acompanhamento de todos os estados de mundo possíveis, mas essa estratégia tende a possuir desvantagens significativas em problemas complexos:</p>
+<ul>
+<li>O agente precisaria considerar e armazenar <strong>todas as explicações possíveis</strong> para as suas observações, mesmo as observações mais improváveis.</li>
+<li>Um <strong>plano de contingência</strong> que consiga lidar com todas as eventualidades e possa crescer arbitrariamente e incluir contingências muito improváveis.</li>
+<li>Em alguns casos, não há um plano que garanta o alcance da meta, exigindo que o agente compare os méritos de planos não garantidos.</li>
+</ul>
+<p>Para ilustrarmos, imagine um <strong>agente de um modelo de Smart Taxi</strong> que precisa levar um cliente ao aeroporto para um voo às 21h, exigindo que a chegada seja às 20h. O tempo de viagem poderá variar (30 min em trânsito médio, 45 min em pesado, 20 min em leve) dependendo do horário e condições climáticas (chuva, por exemplo, sempre significa trânsito pesado). Além disso, há uma chance de acidentes na rota, aumentando o tempo de viagem. Qual seria o melhor plano para chegar com segurança? A incerteza nesse caso é clara.</p>
+<p>Outro exemplo é o <strong>diagnóstico odontológico</strong>. Uma regra lógica simples como "Dor de dente -&gt; Cárie" é incorreta, pois nem toda dor de dente é ou será cárie. Para torná-la correta, seria necessário listar todas as qualificações (exceções e condições) para que uma cárie cause dor de dente, o que é impraticável. Tentar usar essa lógica para domínios como diagnóstico médico é difícil por três razões:</p>
+<ul>
+<li><strong>Complexidade</strong>: É um trabalho árduo listar o conjunto completo de antecedentes ou consequentes que garanta uma regra sem exceções.</li>
+<li><strong>Ignorância teórica</strong>: A ciência médica, por exemplo, não possui uma teoria completa para seu domínio.</li>
+<li><strong>Ignorância prática</strong>: Mesmo com todas as regras, ainda pode haver incerteza sobre um paciente específico se nem todos os testes necessários foram ou puderam ser executados.</li>
+</ul>
+<p>A solução para lidar com essa incerteza, nesses casos, é a <strong>Teoria da Probabilidade</strong>. Enquanto um agente lógico lida com sentenças como verdadeiro, falso ou desconhecido, um <strong>agente probabilístico</strong> pode ter um <strong>grau numérico de crença</strong> entre 0 (certamente falso) e 1 (certamente verdadeiro). Dessa forma, a teoria da probabilidade fornece uma maneira de <strong>resumir a incerteza</strong> que vem da falta de tempo e ignorância, resolvendo o problema da qualificação. Por exemplo, podemos acreditar que há 80% de chance (probabilidade de 0,8) de um paciente com dor de dente ter cárie.</p>
+<p>Para a tomada de decisão sob incerteza, a <strong>Teoria da Utilidade</strong> pode ser combinada com as probabilidades. A utilidade representa as preferências do agente, onde cada estado (ou sequência de estados) possui um grau de utilidade, e o agente preferirá estados com maior utilidade. A <strong>Teoria da Decisão</strong> visa afirmar que um agente é racional se escolhe a ação que produz a <strong>maior utilidade esperada</strong> (MEU - Maximum Expected Utility), calculada pela média de todos os possíveis resultados de uma ação.</p>
+<h3 id="notacao-basica-de-probabilidade">Notação Básica de Probabilidade</h3>
+<ul>
+<li><strong>Espaço Amostral (Omega) e Mundos Possíveis (omega)</strong>: O conjunto de todos os estados de mundos possíveis é -&gt; o espaço amostral, e omega representa um elemento dele.</li>
+<li><strong>Axiomas Básicos</strong>: Todo estado de mundo possível tem uma probabilidade entre 0 e 1, e a probabilidade do conjunto de todos os estados de mundo possíveis é 1.</li>
+<li><strong>Eventos/Proposições</strong>: Conjuntos de mundos possíveis (por exemplo, a probabilidade de dois dados somarem 11). A probabilidade de uma proposição é a soma das probabilidades dos mundos em que ela é válida.</li>
+<li><strong>Probabilidades Incondicionais (a priori)</strong>: P(Total = 11) ou P(Duplos).</li>
+<li><strong>Probabilidades Condicionais (a posteriori)</strong>: P(a|b) - a probabilidade de 'a' dado 'b'. Definida como P(a E b) / P(b).</li>
+<li><strong>Regra do Produto</strong>: P(a E b) = P(a|b)P(b).</li>
+<li><strong>Variáveis Aleatórias</strong>: Representadas por letras maiúsculas (e.g., Dado1, Tempo) e seus valores por letras minúsculas (e.g., Dado1 = 5). Podem ser Booleanas (verdadeiro/falso), discretas (Idade = {juvenil, adolescente, adulto}) ou contínuas.</li>
+<li><strong>Distribuição de Probabilidade</strong>: P(X) em negrito indica um vetor de números, definindo a distribuição para a variável aleatória. P(X|Y) fornece os valores de P(X=xi | Y=yj).</li>
+<li><strong>Função Densidade de Probabilidade (PDF)</strong>: Usada para variáveis aleatórias contínuas.</li>
+<li><strong>Distribuição Conjunta de Probabilidade</strong>: P(Tempo, Cárie). Um modelo probabilístico é completamente determinado pela <strong>distribuição de probabilidade conjunta completa</strong> de todas as variáveis aleatórias.</li>
+<li><strong>Marginalização (Somatório)</strong>: Para calcular a probabilidade de uma proposição, somam-se as probabilidades dos mundos em que ela é verdadeira. Este processo remove variáveis da equação. Ex: P(Cárie) = P(Cárie, DorDeDente, Pego) + P(Cárie, ¬DorDeDente, Pego) + ....</li>
+<li><strong>Regra de Condicionamento</strong>: P(Y) = Soma_z P(Y|z)P(z).</li>
+<li><strong>Normalização</strong>: Usamos alpha como uma constante para normalizar probabilidades, garantindo que somem 1.</li>
+</ul>
+<h3 id="independencia-e-a-regra-de-bayes">Independência e a Regra de Bayes</h3>
+<ul>
+<li><strong>Independência</strong>: Duas proposições 'a' e 'b' são independentes se P(a E b) = P(a)P(b), ou equivalentemente, P(a|b) = P(a). A independência entre variáveis pode <strong>reduzir dramaticamente a quantidade de informação</strong> para especificar a distribuição conjunta completa e a complexidade da inferência.</li>
+<li><strong>Regra de Bayes</strong>: Derivada da regra do produto, é P(a|b) = P(b|a)P(a) / P(b). Esta equação é a <strong>base da maioria dos sistemas modernos de IA</strong> para inferência probabilística. É frequentemente usada quando temos evidência do <strong>efeito</strong> de uma causa desconhecida e desejamos determinar essa <strong>causa</strong> (P(causa|efeito) a partir de P(efeito|causa)). Por exemplo, um médico sabe P(sintomas|doença) e deseja P(doença|sintomas).<ul>
+<li><strong>Exemplo da Meningite</strong>: Se P(torcicolo|meningite) = 0,7, P(meningite) = 1/50.000, e P(torcicolo) = 0,01. A probabilidade de um paciente com torcicolo ter meningite é P(meningite|torcicolo) = (0,7 * 1/50.000) / 0,01 = 0,0014. Isso mostra como uma causa rara (meningite) pode ser inferida mesmo com um sintoma comum (torcicolo).</li>
+</ul>
+</li>
+<li><strong>Combinando Evidências</strong>: Quando temos múltiplas evidências, como um paciente com dor de dente e uma sonda presa (indicando cárie), a complexidade aumenta. A chave é a <strong>Independência Condicional</strong>: Duas variáveis X e Y são condicionalmente independentes dada uma terceira variável Z se P(X, Y|Z) = P(X|Z)P(Y|Z). No exemplo odontológico, a dor de dente e a sonda presa são independentes, <strong>dada a presença ou ausência de cárie</strong>. Isso simplifica bastante a modelagem.</li>
+<li><strong>Modelo de Bayes Ingênuo</strong>: Um padrão comum onde uma única causa influencia diretamente uma série de efeitos que são condicionalmente independentes dada a causa. A distribuição conjunta completa pode ser escrita como P(Causa, Efeitos) = P(Causa) * Produto P(Efeito_i | Causa). Embora seja uma suposição simplificadora ("ingênua"), esses sistemas <strong>funcionam muito bem na prática</strong>, mesmo quando as condições de independência condicional não são estritamente verdadeiras.</li>
+</ul>
+<h3 id="redes-bayesianas">Redes Bayesianas</h3>
+<p>Uma <strong>Rede Bayesiana</strong> é um <strong>grafo direcionado acíclico (DAG)</strong> onde cada nó corresponde a uma variável aleatória (discreta ou contínua). Ligações por setas conectam pares de nós, onde X é um "genitor" de Y se há uma seta de X para Y. Cada nó X_i tem uma <strong>informação de probabilidade associada</strong> theta(X_i|Parents(X_i)) que quantifica o efeito dos genitores no nó.</p>
+<p><strong>A Semântica das Redes Bayesianas</strong>: A rede Bayesiana define cada entrada na <strong>distribuição conjunta</strong> P(x_1,...,x_n) como o <strong>produto das probabilidades condicionais locais</strong>:</p>
+<p>P(x_1,...,x_n) = Produto P(x_i|parents(x_i))</p>
+<p>Isso significa que cada parâmetro da rede tem um significado preciso em termos de apenas um pequeno conjunto de variáveis, o que é crucial para a robustez e facilidade de especificação dos modelos. Sendo assim, uma rede Bayesiana pode ser usada para <strong>responder a qualquer consulta</strong> sobre o domínio, somando todos os valores de probabilidade conjunta relevantes.</p>
+<p><strong>Método para Construir Redes Bayesianas</strong>:</p>
+<ol>
+<li><strong>Nós</strong>: Determine o conjunto de variáveis e ordene-as {X1,...,Xn}. A rede será mais compacta se as <strong>causas precederem os efeitos</strong>.</li>
+<li><strong>Links</strong>: Para cada X_i, escolha um conjunto mínimo de genitores de X1,...,Xi-1 que influenciam diretamente X_i. Adicione um link do genitor para X_i.</li>
+<li><strong>CPTs</strong>: Escreva a <strong>tabela de probabilidade condicional</strong>, P(X_i|Parents(X_i)).</li>
+</ol>
+<p>Este método, garante que a rede é <strong>acíclica</strong> e não contém valores de probabilidade redundantes.</p>
+<p><strong>Independência Condicional em Redes Bayesianas</strong>:</p>
+<ul>
+<li><strong>Propriedade Não-Descendentes</strong>: Cada variável é condicionalmente independente de seus não-descendentes, dados seus genitores.</li>
+<li><strong>Cobertor de Markov</strong>: Uma variável é condicionalmente independente de todos os outros nós da rede, dados seus <strong>genitores, filhos e genitores dos filhos</strong>.</li>
+</ul>
+<p><strong>Representação Eficiente de Distribuições Condicionais</strong>:</p>
+<ul>
+<li><strong>Nós Determinísticos</strong>: É 0 valor especificado exatamente pelos genitores, sem incerteza.</li>
+<li><strong>Independência de Contexto Específico (CSI)</strong>: Uma variável é condicionalmente independente de alguns de seus genitores dados certos valores de outros.</li>
+<li><strong>OR-Ruídoso</strong>: Permite incerteza sobre a capacidade de cada genitor de causar o filho ser verdadeiro.</li>
+</ul>
+<p><strong>Redes Bayesianas com Variáveis Contínuas</strong>:</p>
+<ul>
+<li><strong>Discretização</strong>: Dividir valores em intervalos fixos.</li>
+<li><strong>Distribuições Probabilísticas</strong>: Definir variáveis contínuas usando funções de densidade de probabilidade padrão (e.g., Gaussiana).</li>
+<li><strong>Não Paramétrica</strong>: Definir a distribuição condicional implicitamente com uma coleção de instâncias.</li>
+</ul>
+<p>Redes Bayesianas que possuem variáveis discretas e contínuas são chamadas de <strong>Redes Bayesianas Híbridas</strong>.</p>
+<p><strong>Exemplo de Aplicação</strong>:</p>
+<p>Aqui, será apresentado uma estrutura conceitual de como uma Rede Bayesiana pode ser implementada em código, focando na representação dos nós e na lógica de cálculo de probabilidade conjunta.</p>
+<div class="language-python highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Python</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">  1</a></span>
+<span class="normal"><a href="#__codelineno-0-2">  2</a></span>
+<span class="normal"><a href="#__codelineno-0-3">  3</a></span>
+<span class="normal"><a href="#__codelineno-0-4">  4</a></span>
+<span class="normal"><a href="#__codelineno-0-5">  5</a></span>
+<span class="normal"><a href="#__codelineno-0-6">  6</a></span>
+<span class="normal"><a href="#__codelineno-0-7">  7</a></span>
+<span class="normal"><a href="#__codelineno-0-8">  8</a></span>
+<span class="normal"><a href="#__codelineno-0-9">  9</a></span>
+<span class="normal"><a href="#__codelineno-0-10"> 10</a></span>
+<span class="normal"><a href="#__codelineno-0-11"> 11</a></span>
+<span class="normal"><a href="#__codelineno-0-12"> 12</a></span>
+<span class="normal"><a href="#__codelineno-0-13"> 13</a></span>
+<span class="normal"><a href="#__codelineno-0-14"> 14</a></span>
+<span class="normal"><a href="#__codelineno-0-15"> 15</a></span>
+<span class="normal"><a href="#__codelineno-0-16"> 16</a></span>
+<span class="normal"><a href="#__codelineno-0-17"> 17</a></span>
+<span class="normal"><a href="#__codelineno-0-18"> 18</a></span>
+<span class="normal"><a href="#__codelineno-0-19"> 19</a></span>
+<span class="normal"><a href="#__codelineno-0-20"> 20</a></span>
+<span class="normal"><a href="#__codelineno-0-21"> 21</a></span>
+<span class="normal"><a href="#__codelineno-0-22"> 22</a></span>
+<span class="normal"><a href="#__codelineno-0-23"> 23</a></span>
+<span class="normal"><a href="#__codelineno-0-24"> 24</a></span>
+<span class="normal"><a href="#__codelineno-0-25"> 25</a></span>
+<span class="normal"><a href="#__codelineno-0-26"> 26</a></span>
+<span class="normal"><a href="#__codelineno-0-27"> 27</a></span>
+<span class="normal"><a href="#__codelineno-0-28"> 28</a></span>
+<span class="normal"><a href="#__codelineno-0-29"> 29</a></span>
+<span class="normal"><a href="#__codelineno-0-30"> 30</a></span>
+<span class="normal"><a href="#__codelineno-0-31"> 31</a></span>
+<span class="normal"><a href="#__codelineno-0-32"> 32</a></span>
+<span class="normal"><a href="#__codelineno-0-33"> 33</a></span>
+<span class="normal"><a href="#__codelineno-0-34"> 34</a></span>
+<span class="normal"><a href="#__codelineno-0-35"> 35</a></span>
+<span class="normal"><a href="#__codelineno-0-36"> 36</a></span>
+<span class="normal"><a href="#__codelineno-0-37"> 37</a></span>
+<span class="normal"><a href="#__codelineno-0-38"> 38</a></span>
+<span class="normal"><a href="#__codelineno-0-39"> 39</a></span>
+<span class="normal"><a href="#__codelineno-0-40"> 40</a></span>
+<span class="normal"><a href="#__codelineno-0-41"> 41</a></span>
+<span class="normal"><a href="#__codelineno-0-42"> 42</a></span>
+<span class="normal"><a href="#__codelineno-0-43"> 43</a></span>
+<span class="normal"><a href="#__codelineno-0-44"> 44</a></span>
+<span class="normal"><a href="#__codelineno-0-45"> 45</a></span>
+<span class="normal"><a href="#__codelineno-0-46"> 46</a></span>
+<span class="normal"><a href="#__codelineno-0-47"> 47</a></span>
+<span class="normal"><a href="#__codelineno-0-48"> 48</a></span>
+<span class="normal"><a href="#__codelineno-0-49"> 49</a></span>
+<span class="normal"><a href="#__codelineno-0-50"> 50</a></span>
+<span class="normal"><a href="#__codelineno-0-51"> 51</a></span>
+<span class="normal"><a href="#__codelineno-0-52"> 52</a></span>
+<span class="normal"><a href="#__codelineno-0-53"> 53</a></span>
+<span class="normal"><a href="#__codelineno-0-54"> 54</a></span>
+<span class="normal"><a href="#__codelineno-0-55"> 55</a></span>
+<span class="normal"><a href="#__codelineno-0-56"> 56</a></span>
+<span class="normal"><a href="#__codelineno-0-57"> 57</a></span>
+<span class="normal"><a href="#__codelineno-0-58"> 58</a></span>
+<span class="normal"><a href="#__codelineno-0-59"> 59</a></span>
+<span class="normal"><a href="#__codelineno-0-60"> 60</a></span>
+<span class="normal"><a href="#__codelineno-0-61"> 61</a></span>
+<span class="normal"><a href="#__codelineno-0-62"> 62</a></span>
+<span class="normal"><a href="#__codelineno-0-63"> 63</a></span>
+<span class="normal"><a href="#__codelineno-0-64"> 64</a></span>
+<span class="normal"><a href="#__codelineno-0-65"> 65</a></span>
+<span class="normal"><a href="#__codelineno-0-66"> 66</a></span>
+<span class="normal"><a href="#__codelineno-0-67"> 67</a></span>
+<span class="normal"><a href="#__codelineno-0-68"> 68</a></span>
+<span class="normal"><a href="#__codelineno-0-69"> 69</a></span>
+<span class="normal"><a href="#__codelineno-0-70"> 70</a></span>
+<span class="normal"><a href="#__codelineno-0-71"> 71</a></span>
+<span class="normal"><a href="#__codelineno-0-72"> 72</a></span>
+<span class="normal"><a href="#__codelineno-0-73"> 73</a></span>
+<span class="normal"><a href="#__codelineno-0-74"> 74</a></span>
+<span class="normal"><a href="#__codelineno-0-75"> 75</a></span>
+<span class="normal"><a href="#__codelineno-0-76"> 76</a></span>
+<span class="normal"><a href="#__codelineno-0-77"> 77</a></span>
+<span class="normal"><a href="#__codelineno-0-78"> 78</a></span>
+<span class="normal"><a href="#__codelineno-0-79"> 79</a></span>
+<span class="normal"><a href="#__codelineno-0-80"> 80</a></span>
+<span class="normal"><a href="#__codelineno-0-81"> 81</a></span>
+<span class="normal"><a href="#__codelineno-0-82"> 82</a></span>
+<span class="normal"><a href="#__codelineno-0-83"> 83</a></span>
+<span class="normal"><a href="#__codelineno-0-84"> 84</a></span>
+<span class="normal"><a href="#__codelineno-0-85"> 85</a></span>
+<span class="normal"><a href="#__codelineno-0-86"> 86</a></span>
+<span class="normal"><a href="#__codelineno-0-87"> 87</a></span>
+<span class="normal"><a href="#__codelineno-0-88"> 88</a></span>
+<span class="normal"><a href="#__codelineno-0-89"> 89</a></span>
+<span class="normal"><a href="#__codelineno-0-90"> 90</a></span>
+<span class="normal"><a href="#__codelineno-0-91"> 91</a></span>
+<span class="normal"><a href="#__codelineno-0-92"> 92</a></span>
+<span class="normal"><a href="#__codelineno-0-93"> 93</a></span>
+<span class="normal"><a href="#__codelineno-0-94"> 94</a></span>
+<span class="normal"><a href="#__codelineno-0-95"> 95</a></span>
+<span class="normal"><a href="#__codelineno-0-96"> 96</a></span>
+<span class="normal"><a href="#__codelineno-0-97"> 97</a></span>
+<span class="normal"><a href="#__codelineno-0-98"> 98</a></span>
+<span class="normal"><a href="#__codelineno-0-99"> 99</a></span>
+<span class="normal"><a href="#__codelineno-0-100">100</a></span>
+<span class="normal"><a href="#__codelineno-0-101">101</a></span>
+<span class="normal"><a href="#__codelineno-0-102">102</a></span>
+<span class="normal"><a href="#__codelineno-0-103">103</a></span>
+<span class="normal"><a href="#__codelineno-0-104">104</a></span>
+<span class="normal"><a href="#__codelineno-0-105">105</a></span>
+<span class="normal"><a href="#__codelineno-0-106">106</a></span>
+<span class="normal"><a href="#__codelineno-0-107">107</a></span>
+<span class="normal"><a href="#__codelineno-0-108">108</a></span>
+<span class="normal"><a href="#__codelineno-0-109">109</a></span>
+<span class="normal"><a href="#__codelineno-0-110">110</a></span>
+<span class="normal"><a href="#__codelineno-0-111">111</a></span>
+<span class="normal"><a href="#__codelineno-0-112">112</a></span>
+<span class="normal"><a href="#__codelineno-0-113">113</a></span>
+<span class="normal"><a href="#__codelineno-0-114">114</a></span>
+<span class="normal"><a href="#__codelineno-0-115">115</a></span>
+<span class="normal"><a href="#__codelineno-0-116">116</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="k">class</span><span class="w"> </span><span class="nc">Node</span><span class="p">:</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2"></a>    <span class="k">def</span><span class="w"> </span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">parents</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">cpts</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3"></a>        <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4"></a>        <span class="bp">self</span><span class="o">.</span><span class="n">parents</span> <span class="o">=</span> <span class="n">parents</span> <span class="k">if</span> <span class="n">parents</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="k">else</span> <span class="p">[]</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5"></a>        <span class="bp">self</span><span class="o">.</span><span class="n">cpts</span> <span class="o">=</span> <span class="n">cpts</span> <span class="c1"># Conditional Probability Tables (tabelas de probabilidade condicional)</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6"></a>
+<a id="__codelineno-0-7" name="__codelineno-0-7"></a><span class="k">class</span><span class="w"> </span><span class="nc">BayesianNetwork</span><span class="p">:</span>
+<a id="__codelineno-0-8" name="__codelineno-0-8"></a>    <span class="k">def</span><span class="w"> </span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<a id="__codelineno-0-9" name="__codelineno-0-9"></a>        <span class="bp">self</span><span class="o">.</span><span class="n">nodes</span> <span class="o">=</span> <span class="p">{}</span>
+<a id="__codelineno-0-10" name="__codelineno-0-10"></a>
+<a id="__codelineno-0-11" name="__codelineno-0-11"></a>    <span class="k">def</span><span class="w"> </span><span class="nf">add_node</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">node</span><span class="p">):</span>
+<a id="__codelineno-0-12" name="__codelineno-0-12"></a>        <span class="bp">self</span><span class="o">.</span><span class="n">nodes</span><span class="p">[</span><span class="n">node</span><span class="o">.</span><span class="n">name</span><span class="p">]</span> <span class="o">=</span> <span class="n">node</span>
+<a id="__codelineno-0-13" name="__codelineno-0-13"></a>
+<a id="__codelineno-0-14" name="__codelineno-0-14"></a>    <span class="k">def</span><span class="w"> </span><span class="nf">calculate_joint_probability</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">assignment</span><span class="p">):</span>
+<a id="__codelineno-0-15" name="__codelineno-0-15"></a>        <span class="c1"># assignment: dicionário de {variable_name: value}</span>
+<a id="__codelineno-0-16" name="__codelineno-0-16"></a>        <span class="c1"># Multiplica as probabilidades condicionais de cada nó dado seus pais,</span>
+<a id="__codelineno-0-17" name="__codelineno-0-17"></a>        <span class="c1"># conforme a semântica da Rede Bayesiana. P(x1,...,xn) = Produto P(xi|parents(xi))</span>
+<a id="__codelineno-0-18" name="__codelineno-0-18"></a>        <span class="n">joint_prob</span> <span class="o">=</span> <span class="mf">1.0</span>
+<a id="__codelineno-0-19" name="__codelineno-0-19"></a>        <span class="k">for</span> <span class="n">node_name</span><span class="p">,</span> <span class="n">node</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">nodes</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+<a id="__codelineno-0-20" name="__codelineno-0-20"></a>            <span class="n">node_value</span> <span class="o">=</span> <span class="n">assignment</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">node_name</span><span class="p">)</span>
+<a id="__codelineno-0-21" name="__codelineno-0-21"></a>            <span class="k">if</span> <span class="n">node_value</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+<a id="__codelineno-0-22" name="__codelineno-0-22"></a>                <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Missing value for node </span><span class="si">{</span><span class="n">node_name</span><span class="si">}</span><span class="s2"> in assignment&quot;</span><span class="p">)</span>
+<a id="__codelineno-0-23" name="__codelineno-0-23"></a>
+<a id="__codelineno-0-24" name="__codelineno-0-24"></a>            <span class="n">parent_values</span> <span class="o">=</span> <span class="p">{</span><span class="n">p_name</span><span class="p">:</span> <span class="n">assignment</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">p_name</span><span class="p">)</span> <span class="k">for</span> <span class="n">p_name</span> <span class="ow">in</span> <span class="n">node</span><span class="o">.</span><span class="n">parents</span><span class="p">}</span>
+<a id="__codelineno-0-25" name="__codelineno-0-25"></a>            <span class="n">conditional_prob</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_get_conditional_probability</span><span class="p">(</span><span class="n">node</span><span class="p">,</span> <span class="n">node_value</span><span class="p">,</span> <span class="n">parent_values</span><span class="p">)</span>
+<a id="__codelineno-0-26" name="__codelineno-0-26"></a>            <span class="n">joint_prob</span> <span class="o">*=</span> <span class="n">conditional_prob</span>
+<a id="__codelineno-0-27" name="__codelineno-0-27"></a>        <span class="k">return</span> <span class="n">joint_prob</span>
+<a id="__codelineno-0-28" name="__codelineno-0-28"></a>
+<a id="__codelineno-0-29" name="__codelineno-0-29"></a>    <span class="k">def</span><span class="w"> </span><span class="nf">_get_conditional_probability</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">node</span><span class="p">,</span> <span class="n">node_value</span><span class="p">,</span> <span class="n">parent_values</span><span class="p">):</span>
+<a id="__codelineno-0-30" name="__codelineno-0-30"></a>        <span class="c1"># Lógica para obter P(node_value | parent_values) da CPT do nó.</span>
+<a id="__codelineno-0-31" name="__codelineno-0-31"></a>        <span class="c1"># No fim das contas, CPTs são geralmente representadas como dicionários aninhados ou arrays.</span>
+<a id="__codelineno-0-32" name="__codelineno-0-32"></a>
+<a id="__codelineno-0-33" name="__codelineno-0-33"></a>        <span class="c1"># Exemplo hipotético para JohnCalls (assumindo uma CPT simplificada):</span>
+<a id="__codelineno-0-34" name="__codelineno-0-34"></a>        <span class="k">if</span> <span class="n">node</span><span class="o">.</span><span class="n">name</span> <span class="o">==</span> <span class="s2">&quot;JohnCalls&quot;</span><span class="p">:</span>
+<a id="__codelineno-0-35" name="__codelineno-0-35"></a>            <span class="n">alarm_state</span> <span class="o">=</span> <span class="n">parent_values</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;Alarm&quot;</span><span class="p">)</span>
+<a id="__codelineno-0-36" name="__codelineno-0-36"></a>            <span class="k">if</span> <span class="n">alarm_state</span> <span class="ow">is</span> <span class="kc">True</span><span class="p">:</span>
+<a id="__codelineno-0-37" name="__codelineno-0-37"></a>                <span class="c1"># Se o alarme está ligado, 90% de chance de John ligar (True), 10% de não ligar (False)</span>
+<a id="__codelineno-0-38" name="__codelineno-0-38"></a>                <span class="k">return</span> <span class="n">node</span><span class="o">.</span><span class="n">cpts</span><span class="p">[</span><span class="s1">&#39;true_alarm&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">node_value</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">)</span> 
+<a id="__codelineno-0-39" name="__codelineno-0-39"></a>            <span class="k">elif</span> <span class="n">alarm_state</span> <span class="ow">is</span> <span class="kc">False</span><span class="p">:</span>
+<a id="__codelineno-0-40" name="__codelineno-0-40"></a>                <span class="c1"># Se o alarme está desligado, 5% de chance de John ligar (falso positivo), 95% de não ligar</span>
+<a id="__codelineno-0-41" name="__codelineno-0-41"></a>                <span class="k">return</span> <span class="n">node</span><span class="o">.</span><span class="n">cpts</span><span class="p">[</span><span class="s1">&#39;false_alarm&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">node_value</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">)</span> 
+<a id="__codelineno-0-42" name="__codelineno-0-42"></a>
+<a id="__codelineno-0-43" name="__codelineno-0-43"></a>        <span class="c1"># Para nós sem pais (raiz), a CPT seria apenas sua probabilidade a priori</span>
+<a id="__codelineno-0-44" name="__codelineno-0-44"></a>        <span class="k">if</span> <span class="ow">not</span> <span class="n">node</span><span class="o">.</span><span class="n">parents</span><span class="p">:</span>
+<a id="__codelineno-0-45" name="__codelineno-0-45"></a>            <span class="k">return</span> <span class="n">node</span><span class="o">.</span><span class="n">cpts</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">node_value</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">)</span>
+<a id="__codelineno-0-46" name="__codelineno-0-46"></a>
+<a id="__codelineno-0-47" name="__codelineno-0-47"></a>        <span class="k">return</span> <span class="mf">0.0</span> <span class="c1"># Retorna 0.0 se a CPT não for encontrada ou implementada para o nó</span>
+<a id="__codelineno-0-48" name="__codelineno-0-48"></a>
+<a id="__codelineno-0-49" name="__codelineno-0-49"></a>    <span class="k">def</span><span class="w"> </span><span class="nf">inference_by_enumeration</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">query_var</span><span class="p">,</span> <span class="n">evidence</span><span class="p">):</span>
+<a id="__codelineno-0-50" name="__codelineno-0-50"></a>        <span class="c1"># Cálculo de P(query_var | evidence).</span>
+<a id="__codelineno-0-51" name="__codelineno-0-51"></a>        <span class="c1"># Este método envolve somar sobre todas as combinações possíveis de valores das variáveis não observadas.</span>
+<a id="__codelineno-0-52" name="__codelineno-0-52"></a>        <span class="c1"># Por exemplo: P(Burglary | JohnCalls=true, MaryCalls=true). As variáveis ocultas seriam Earthquake e Alarm.</span>
+<a id="__codelineno-0-53" name="__codelineno-0-53"></a>        <span class="c1"># A complexidade é alta para grandes redes, tornando-a computacionalmente cara.</span>
+<a id="__codelineno-0-54" name="__codelineno-0-54"></a>
+<a id="__codelineno-0-55" name="__codelineno-0-55"></a>        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;A inferência por enumeração para </span><span class="si">{</span><span class="n">query_var</span><span class="si">}</span><span class="s2"> dada </span><span class="si">{</span><span class="n">evidence</span><span class="si">}</span><span class="s2"> seria complexa e computacionalmente cara para grandes redes.&quot;</span><span class="p">)</span>
+<a id="__codelineno-0-56" name="__codelineno-0-56"></a>        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Envolveria somar sobre todas as combinações das variáveis ocultas (não observadas), multiplicando as probabilidades condicionais locais.&quot;</span><span class="p">)</span>
+<a id="__codelineno-0-57" name="__codelineno-0-57"></a>        <span class="k">return</span> <span class="s2">&quot;Conceptual Inference Result (Resultados reais exigem implementação completa)&quot;</span>
+<a id="__codelineno-0-58" name="__codelineno-0-58"></a>
+<a id="__codelineno-0-59" name="__codelineno-0-59"></a><span class="c1"># Exemplo de Definição da Rede Bayesiana (Problema do Alarme):</span>
+<a id="__codelineno-0-60" name="__codelineno-0-60"></a><span class="c1"># Nodes: Burglary (B), Earthquake (E), Alarm (A), JohnCalls (J), MaryCalls (M)</span>
+<a id="__codelineno-0-61" name="__codelineno-0-61"></a><span class="c1"># Links: B -&gt; A, E -&gt; A, A -&gt; J, A -&gt; M</span>
+<a id="__codelineno-0-62" name="__codelineno-0-62"></a>
+<a id="__codelineno-0-63" name="__codelineno-0-63"></a><span class="c1"># Definindo as CPTs para o exemplo do alarme (valores hipotéticos/ilustrativos para o portfólio):</span>
+<a id="__codelineno-0-64" name="__codelineno-0-64"></a><span class="c1"># Probabilidade a priori de Roubo e Terremoto</span>
+<a id="__codelineno-0-65" name="__codelineno-0-65"></a><span class="n">cpt_burglary</span> <span class="o">=</span> <span class="p">{</span><span class="kc">True</span><span class="p">:</span> <span class="mf">0.001</span><span class="p">,</span> <span class="kc">False</span><span class="p">:</span> <span class="mf">0.999</span><span class="p">}</span>
+<a id="__codelineno-0-66" name="__codelineno-0-66"></a><span class="n">cpt_earthquake</span> <span class="o">=</span> <span class="p">{</span><span class="kc">True</span><span class="p">:</span> <span class="mf">0.002</span><span class="p">,</span> <span class="kc">False</span><span class="p">:</span> <span class="mf">0.998</span><span class="p">}</span>
+<a id="__codelineno-0-67" name="__codelineno-0-67"></a>
+<a id="__codelineno-0-68" name="__codelineno-0-68"></a><span class="c1"># CPT do Alarme dependendo de Roubo e Terremoto</span>
+<a id="__codelineno-0-69" name="__codelineno-0-69"></a><span class="c1"># P(Alarm | Burglary, Earthquake)</span>
+<a id="__codelineno-0-70" name="__codelineno-0-70"></a><span class="c1"># Formato: {(Burglary_val, Earthquake_val): {Alarm_True: prob, Alarm_False: prob}}</span>
+<a id="__codelineno-0-71" name="__codelineno-0-71"></a><span class="n">cpt_alarm</span> <span class="o">=</span> <span class="p">{</span>
+<a id="__codelineno-0-72" name="__codelineno-0-72"></a>    <span class="p">(</span><span class="kc">True</span><span class="p">,</span> <span class="kc">True</span><span class="p">):</span> <span class="p">{</span><span class="kc">True</span><span class="p">:</span> <span class="mf">0.94</span><span class="p">,</span> <span class="kc">False</span><span class="p">:</span> <span class="mf">0.06</span><span class="p">},</span>    <span class="c1"># P(A|B,E)</span>
+<a id="__codelineno-0-73" name="__codelineno-0-73"></a>    <span class="p">(</span><span class="kc">True</span><span class="p">,</span> <span class="kc">False</span><span class="p">):</span> <span class="p">{</span><span class="kc">True</span><span class="p">:</span> <span class="mf">0.95</span><span class="p">,</span> <span class="kc">False</span><span class="p">:</span> <span class="mf">0.05</span><span class="p">},</span>   <span class="c1"># P(A|B,~E)</span>
+<a id="__codelineno-0-74" name="__codelineno-0-74"></a>    <span class="p">(</span><span class="kc">False</span><span class="p">,</span> <span class="kc">True</span><span class="p">):</span> <span class="p">{</span><span class="kc">True</span><span class="p">:</span> <span class="mf">0.29</span><span class="p">,</span> <span class="kc">False</span><span class="p">:</span> <span class="mf">0.71</span><span class="p">},</span>   <span class="c1"># P(A|~B,E)</span>
+<a id="__codelineno-0-75" name="__codelineno-0-75"></a>    <span class="p">(</span><span class="kc">False</span><span class="p">,</span> <span class="kc">False</span><span class="p">):</span> <span class="p">{</span><span class="kc">True</span><span class="p">:</span> <span class="mf">0.001</span><span class="p">,</span> <span class="kc">False</span><span class="p">:</span> <span class="mf">0.999</span><span class="p">}</span> <span class="c1"># P(A|~B,~E)</span>
+<a id="__codelineno-0-76" name="__codelineno-0-76"></a><span class="p">}</span>
+<a id="__codelineno-0-77" name="__codelineno-0-77"></a>
+<a id="__codelineno-0-78" name="__codelineno-0-78"></a><span class="c1"># CPTs para JohnCalls e MaryCalls dependendo do Alarme</span>
+<a id="__codelineno-0-79" name="__codelineno-0-79"></a><span class="c1"># P(JohnCalls | Alarm)</span>
+<a id="__codelineno-0-80" name="__codelineno-0-80"></a><span class="n">cpt_johncalls</span> <span class="o">=</span> <span class="p">{</span>
+<a id="__codelineno-0-81" name="__codelineno-0-81"></a>    <span class="s1">&#39;true_alarm&#39;</span><span class="p">:</span> <span class="p">{</span><span class="kc">True</span><span class="p">:</span> <span class="mf">0.90</span><span class="p">,</span> <span class="kc">False</span><span class="p">:</span> <span class="mf">0.10</span><span class="p">},</span>  <span class="c1"># P(J|A)</span>
+<a id="__codelineno-0-82" name="__codelineno-0-82"></a>    <span class="s1">&#39;false_alarm&#39;</span><span class="p">:</span> <span class="p">{</span><span class="kc">True</span><span class="p">:</span> <span class="mf">0.05</span><span class="p">,</span> <span class="kc">False</span><span class="p">:</span> <span class="mf">0.95</span><span class="p">}</span> <span class="c1"># P(J|~A) (falso positivo, por exemplo)</span>
+<a id="__codelineno-0-83" name="__codelineno-0-83"></a><span class="p">}</span>
+<a id="__codelineno-0-84" name="__codelineno-0-84"></a>
+<a id="__codelineno-0-85" name="__codelineno-0-85"></a><span class="c1"># P(MaryCalls | Alarm)</span>
+<a id="__codelineno-0-86" name="__codelineno-0-86"></a><span class="n">cpt_marycalls</span> <span class="o">=</span> <span class="p">{</span>
+<a id="__codelineno-0-87" name="__codelineno-0-87"></a>    <span class="s1">&#39;true_alarm&#39;</span><span class="p">:</span> <span class="p">{</span><span class="kc">True</span><span class="p">:</span> <span class="mf">0.70</span><span class="p">,</span> <span class="kc">False</span><span class="p">:</span> <span class="mf">0.30</span><span class="p">},</span>  <span class="c1"># P(M|A)</span>
+<a id="__codelineno-0-88" name="__codelineno-0-88"></a>    <span class="s1">&#39;false_alarm&#39;</span><span class="p">:</span> <span class="p">{</span><span class="kc">True</span><span class="p">:</span> <span class="mf">0.01</span><span class="p">,</span> <span class="kc">False</span><span class="p">:</span> <span class="mf">0.99</span><span class="p">}</span> <span class="c1"># P(M|~A) (falso positivo, por exemplo)</span>
+<a id="__codelineno-0-89" name="__codelineno-0-89"></a><span class="p">}</span>
+<a id="__codelineno-0-90" name="__codelineno-0-90"></a>
+<a id="__codelineno-0-91" name="__codelineno-0-91"></a><span class="c1"># Criando os nós da rede</span>
+<a id="__codelineno-0-92" name="__codelineno-0-92"></a><span class="n">node_burglary</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">&quot;Burglary&quot;</span><span class="p">,</span> <span class="n">cpts</span><span class="o">=</span><span class="n">cpt_burglary</span><span class="p">)</span>
+<a id="__codelineno-0-93" name="__codelineno-0-93"></a><span class="n">node_earthquake</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">&quot;Earthquake&quot;</span><span class="p">,</span> <span class="n">cpts</span><span class="o">=</span><span class="n">cpt_earthquake</span><span class="p">)</span>
+<a id="__codelineno-0-94" name="__codelineno-0-94"></a><span class="n">node_alarm</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">&quot;Alarm&quot;</span><span class="p">,</span> <span class="n">parents</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;Burglary&quot;</span><span class="p">,</span> <span class="s2">&quot;Earthquake&quot;</span><span class="p">],</span> <span class="n">cpts</span><span class="o">=</span><span class="n">cpt_alarm</span><span class="p">)</span>
+<a id="__codelineno-0-95" name="__codelineno-0-95"></a><span class="n">node_johncalls</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">&quot;JohnCalls&quot;</span><span class="p">,</span> <span class="n">parents</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;Alarm&quot;</span><span class="p">],</span> <span class="n">cpts</span><span class="o">=</span><span class="n">cpt_johncalls</span><span class="p">)</span>
+<a id="__codelineno-0-96" name="__codelineno-0-96"></a><span class="n">node_marycalls</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">&quot;MaryCalls&quot;</span><span class="p">,</span> <span class="n">parents</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;Alarm&quot;</span><span class="p">],</span> <span class="n">cpts</span><span class="o">=</span><span class="n">cpt_marycalls</span><span class="p">)</span>
+<a id="__codelineno-0-97" name="__codelineno-0-97"></a>
+<a id="__codelineno-0-98" name="__codelineno-0-98"></a><span class="c1"># Construindo a rede</span>
+<a id="__codelineno-0-99" name="__codelineno-0-99"></a><span class="n">alarm_network</span> <span class="o">=</span> <span class="n">BayesianNetwork</span><span class="p">()</span>
+<a id="__codelineno-0-100" name="__codelineno-0-100"></a><span class="n">alarm_network</span><span class="o">.</span><span class="n">add_node</span><span class="p">(</span><span class="n">node_burglary</span><span class="p">)</span>
+<a id="__codelineno-0-101" name="__codelineno-0-101"></a><span class="n">alarm_network</span><span class="o">.</span><span class="n">add_node</span><span class="p">(</span><span class="n">node_earthquake</span><span class="p">)</span>
+<a id="__codelineno-0-102" name="__codelineno-0-102"></a><span class="n">alarm_network</span><span class="o">.</span><span class="n">add_node</span><span class="p">(</span><span class="n">node_alarm</span><span class="p">)</span>
+<a id="__codelineno-0-103" name="__codelineno-0-103"></a><span class="n">alarm_network</span><span class="o">.</span><span class="n">add_node</span><span class="p">(</span><span class="n">node_johncalls</span><span class="p">)</span>
+<a id="__codelineno-0-104" name="__codelineno-0-104"></a><span class="n">alarm_network</span><span class="o">.</span><span class="n">add_node</span><span class="p">(</span><span class="n">node_marycalls</span><span class="p">)</span>
+<a id="__codelineno-0-105" name="__codelineno-0-105"></a>
+<a id="__codelineno-0-106" name="__codelineno-0-106"></a><span class="c1"># Exemplo de uso (conceitual):</span>
+<a id="__codelineno-0-107" name="__codelineno-0-107"></a><span class="c1"># Suponha que John e Mary ligaram. Qual a probabilidade de ter ocorrido um roubo?</span>
+<a id="__codelineno-0-108" name="__codelineno-0-108"></a><span class="c1"># assignment_example = {</span>
+<a id="__codelineno-0-109" name="__codelineno-0-109"></a><span class="c1">#     &quot;Burglary&quot;: True, &quot;Earthquake&quot;: False, &quot;Alarm&quot;: True, &quot;JohnCalls&quot;: True, &quot;MaryCalls&quot;: True</span>
+<a id="__codelineno-0-110" name="__codelineno-0-110"></a><span class="c1"># }</span>
+<a id="__codelineno-0-111" name="__codelineno-0-111"></a><span class="c1"># joint_prob = alarm_network.calculate_joint_probability(assignment_example)</span>
+<a id="__codelineno-0-112" name="__codelineno-0-112"></a><span class="c1"># print(f&quot;\nProbabilidade conjunta do cenário: {joint_prob:.6f}&quot;)</span>
+<a id="__codelineno-0-113" name="__codelineno-0-113"></a>
+<a id="__codelineno-0-114" name="__codelineno-0-114"></a><span class="c1"># Esse é um Exemplo de inferência (apenas conceitual, pois a implementação completa é mais complexa)</span>
+<a id="__codelineno-0-115" name="__codelineno-0-115"></a><span class="c1"># alarm_network.inference_by_enumeration(query_var=&quot;Burglary&quot;, </span>
+<a id="__codelineno-0-116" name="__codelineno-0-116"></a><span class="c1">#                                        evidence={&quot;JohnCalls&quot;: True, &quot;MaryCalls&quot;: True})</span>
+</code></pre></div></td></tr></table></div>
+<p>Para inferência em redes bayesianas, especialmente em grandes redes, a inferência exata (como por enumeração) pode ser <strong>intratável</strong>. Por exemplo, uma rede como a do seguro de carro precisaria de milhões de operações aritméticas para uma consulta. Métodos de <strong>inferência aproximada</strong>, também chamados de <strong>algoritmos de Monte Carlo</strong>, são usados para lidar com isso. Eles são capazes de gerar eventos aleatórios com base nas probabilidades da rede Bayesiana e contar as respostas. Com amostras suficientes, podemos nos aproximar da verdadeira distribuição de probabilidade.</p>
+<ul>
+<li><strong>Amostragem Direta</strong>: Gera amostras de uma distribuição de probabilidade conhecida, amostrando cada variável em ordem topológica.</li>
+<li><strong>Cadeia de Markov Monte Carlo (MCMC)</strong>: Gera uma amostra fazendo uma alteração aleatória na amostra anterior. Exemplos incluem Gibbs Sampling e Metropolis-Hastings.</li>
+</ul>
+<hr />
+<h2 id="2-raciocinio-probabilistico-ao-longo-do-tempo">2. Raciocínio Probabilístico ao Longo do Tempo</h2>
+<p>Enquanto problemas <strong>estáticos</strong> tendem a assumir que o estado do mundo não muda significativamente (como em um diagnóstico de carro), problemas <strong>dinâmicos</strong> envolvem estados que <strong>mudam com o tempo</strong> (como monitorar um paciente com diabetes ou rastrear a posição de um veículo). Para modelar isso, consideramos <strong>problemas de tempo discreto</strong>, onde as amostras temporais são enumeradas (0, 1, 2, ...).</p>
+<ul>
+<li><strong>Variáveis de Estado (Xt)</strong>: Variáveis não observáveis no tempo t (ex: a verdadeira posição de um carro).</li>
+<li><strong>Variáveis de Evidência (Et)</strong>: Variáveis observáveis no tempo t (ex: leituras do GPS do carro).</li>
+</ul>
+<p>Dois componentes-chave são necessários:</p>
+<ul>
+<li><strong>Modelo de Transição</strong>: Especifica como o mundo evolui, ou seja, a distribuição de probabilidade das variáveis de estado mais recentes, dados os valores anteriores, P(Xt|X0:t-1). Para resolver o problema de o histórico crescer infinitamente, fazemos uma <strong>suposição de Markov</strong>: o estado atual depende apenas de um número fixo finito de estados anteriores. A forma mais simples é um <strong>processo de Markov de 1ª ordem</strong>, onde P(Xt|Xt-1).</li>
+<li><strong>Modelo de Sensor (ou Observação)</strong>: Especifica como as variáveis de evidência recebem seus valores, P(Et|X0:t, E1:t-1). A <strong>suposição de sensor de Markov</strong> simplifica isso para P(Et|Xt).</li>
+</ul>
+<p>Além desses modelos, precisamos da <strong>distribuição de probabilidade a priori no tempo 0, P(X0)</strong>. Com isso, a distribuição conjunta completa sobre todas as variáveis é dada por:</p>
+<p>P(X0:t, E1:t) = P(X0) * Produto [P(Xi|Xi-1) * P(Ei|Xi)]</p>
+<p>Temos então como um exemplo clássico o <strong>"Mundo do Guarda-Chuva"</strong>, que é um processo de Markov de primeira ordem onde a probabilidade de chuva depende da chuva no dia anterior, e a observação (guarda-chuva) depende do estado da chuva.</p>
+<h3 id="inferencia-em-modelos-temporais">Inferência em Modelos Temporais</h3>
+<p>Quatro tarefas básicas de inferência são importantes:</p>
+<ul>
+<li><strong>Filtragem (ou Estimação de Estados)</strong>: Calcular a distribuição a posteriori do estado mais recente, dado todas as evidências até o momento: <strong>P(Xt|e1:t)</strong>. Um algoritmo de filtragem útil mantém o estado atual e o atualiza, em vez de voltar a todo o histórico de percepções. O cálculo envolve projetar a distribuição de estados de t para t+1 e depois atualizá-la com a nova evidência.<ul>
+<li><strong>Equação Recursiva para Filtragem</strong>: P(Xt+1|e1:t+1) = alpha P(et+1|Xt+1) Soma P(Xt+1|Xt) P(Xt|e1:t). (Conhecida como "Forward Message")</li>
+</ul>
+</li>
+<li><strong>Predição</strong>: Calcular a distribuição a posteriori de um estado futuro, dada todas as evidências até o instante de tempo atual: <strong>P(Xt+k |e1:t)</strong> para k &gt; 0.</li>
+<li><strong>Suavização (Smoothing)</strong>: Computar a distribuição a posteriori de um estado passado, dada todas as evidências até o instante de tempo atual: <strong>P(Xk|e1:t)</strong> para 0 \&lt;= k \&lt; t. Isso pode ser feito recursivamente, dividindo a evidência em duas partes. (Conhecida como "Backward Message")</li>
+<li><strong>Explicação Mais Provável</strong>: Dada uma sequência de observações, encontrar a sequência de estados que mais provavelmente gerou essas observações: <strong>argmax x1:t P(x1:t |e1:t)</strong>. Isso é resolvido pelo <strong>Algoritmo de Viterbi</strong>, que encontra o caminho mais provável através dos estados ao longo do tempo.</li>
+</ul>
+<h3 id="modelo-oculto-de-markov-hmm">Modelo Oculto de Markov (HMM)</h3>
+<p>Um <strong>HMM</strong> é um modelo probabilístico temporal onde o estado do processo é descrito por uma <strong>única variável aleatória discreta</strong>. O "Mundo do Guarda-Chuva" é um exemplo de HMM, pois possui uma única variável de estado ("chuva"). Embora os HMMs exijam um estado discreto, não há restrição para as variáveis de evidência, pois elas são sempre observadas.</p>
+<p><strong>Algoritmos Matriciais Simplificados para HMMs</strong>:</p>
+<p>Para uma única variável de estado discreta Xt com 'S' valores possíveis:</p>
+<ul>
+<li>O <strong>modelo de transição P(Xt|Xt-1)</strong> torna-se uma <strong>matriz S x S T</strong>, onde T_i,j é a probabilidade de transição do estado i para o estado j.</li>
+<li>O <strong>modelo de sensor P(Et|Xt)</strong> torna-se uma <strong>matriz de observação S x S Ot</strong> para cada passo de tempo. A i-ésima entrada diagonal de Ot é P(et|Xt=i) e as outras entradas são 0.</li>
+</ul>
+<p>As equações recursivas de filtragem e suavização podem ser expressas de forma concisa usando essas matrizes.</p>
+<p><strong>Exemplo de Aplicação</strong>:</p>
+<p>O exemplo abaixo demonstra a estrutura de um HMM para o "Mundo do Guarda-Chuva", representando suas probabilidades de transição e observação como matrizes e dicionários.</p>
+<div class="language-python highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Python</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1">  1</a></span>
+<span class="normal"><a href="#__codelineno-1-2">  2</a></span>
+<span class="normal"><a href="#__codelineno-1-3">  3</a></span>
+<span class="normal"><a href="#__codelineno-1-4">  4</a></span>
+<span class="normal"><a href="#__codelineno-1-5">  5</a></span>
+<span class="normal"><a href="#__codelineno-1-6">  6</a></span>
+<span class="normal"><a href="#__codelineno-1-7">  7</a></span>
+<span class="normal"><a href="#__codelineno-1-8">  8</a></span>
+<span class="normal"><a href="#__codelineno-1-9">  9</a></span>
+<span class="normal"><a href="#__codelineno-1-10"> 10</a></span>
+<span class="normal"><a href="#__codelineno-1-11"> 11</a></span>
+<span class="normal"><a href="#__codelineno-1-12"> 12</a></span>
+<span class="normal"><a href="#__codelineno-1-13"> 13</a></span>
+<span class="normal"><a href="#__codelineno-1-14"> 14</a></span>
+<span class="normal"><a href="#__codelineno-1-15"> 15</a></span>
+<span class="normal"><a href="#__codelineno-1-16"> 16</a></span>
+<span class="normal"><a href="#__codelineno-1-17"> 17</a></span>
+<span class="normal"><a href="#__codelineno-1-18"> 18</a></span>
+<span class="normal"><a href="#__codelineno-1-19"> 19</a></span>
+<span class="normal"><a href="#__codelineno-1-20"> 20</a></span>
+<span class="normal"><a href="#__codelineno-1-21"> 21</a></span>
+<span class="normal"><a href="#__codelineno-1-22"> 22</a></span>
+<span class="normal"><a href="#__codelineno-1-23"> 23</a></span>
+<span class="normal"><a href="#__codelineno-1-24"> 24</a></span>
+<span class="normal"><a href="#__codelineno-1-25"> 25</a></span>
+<span class="normal"><a href="#__codelineno-1-26"> 26</a></span>
+<span class="normal"><a href="#__codelineno-1-27"> 27</a></span>
+<span class="normal"><a href="#__codelineno-1-28"> 28</a></span>
+<span class="normal"><a href="#__codelineno-1-29"> 29</a></span>
+<span class="normal"><a href="#__codelineno-1-30"> 30</a></span>
+<span class="normal"><a href="#__codelineno-1-31"> 31</a></span>
+<span class="normal"><a href="#__codelineno-1-32"> 32</a></span>
+<span class="normal"><a href="#__codelineno-1-33"> 33</a></span>
+<span class="normal"><a href="#__codelineno-1-34"> 34</a></span>
+<span class="normal"><a href="#__codelineno-1-35"> 35</a></span>
+<span class="normal"><a href="#__codelineno-1-36"> 36</a></span>
+<span class="normal"><a href="#__codelineno-1-37"> 37</a></span>
+<span class="normal"><a href="#__codelineno-1-38"> 38</a></span>
+<span class="normal"><a href="#__codelineno-1-39"> 39</a></span>
+<span class="normal"><a href="#__codelineno-1-40"> 40</a></span>
+<span class="normal"><a href="#__codelineno-1-41"> 41</a></span>
+<span class="normal"><a href="#__codelineno-1-42"> 42</a></span>
+<span class="normal"><a href="#__codelineno-1-43"> 43</a></span>
+<span class="normal"><a href="#__codelineno-1-44"> 44</a></span>
+<span class="normal"><a href="#__codelineno-1-45"> 45</a></span>
+<span class="normal"><a href="#__codelineno-1-46"> 46</a></span>
+<span class="normal"><a href="#__codelineno-1-47"> 47</a></span>
+<span class="normal"><a href="#__codelineno-1-48"> 48</a></span>
+<span class="normal"><a href="#__codelineno-1-49"> 49</a></span>
+<span class="normal"><a href="#__codelineno-1-50"> 50</a></span>
+<span class="normal"><a href="#__codelineno-1-51"> 51</a></span>
+<span class="normal"><a href="#__codelineno-1-52"> 52</a></span>
+<span class="normal"><a href="#__codelineno-1-53"> 53</a></span>
+<span class="normal"><a href="#__codelineno-1-54"> 54</a></span>
+<span class="normal"><a href="#__codelineno-1-55"> 55</a></span>
+<span class="normal"><a href="#__codelineno-1-56"> 56</a></span>
+<span class="normal"><a href="#__codelineno-1-57"> 57</a></span>
+<span class="normal"><a href="#__codelineno-1-58"> 58</a></span>
+<span class="normal"><a href="#__codelineno-1-59"> 59</a></span>
+<span class="normal"><a href="#__codelineno-1-60"> 60</a></span>
+<span class="normal"><a href="#__codelineno-1-61"> 61</a></span>
+<span class="normal"><a href="#__codelineno-1-62"> 62</a></span>
+<span class="normal"><a href="#__codelineno-1-63"> 63</a></span>
+<span class="normal"><a href="#__codelineno-1-64"> 64</a></span>
+<span class="normal"><a href="#__codelineno-1-65"> 65</a></span>
+<span class="normal"><a href="#__codelineno-1-66"> 66</a></span>
+<span class="normal"><a href="#__codelineno-1-67"> 67</a></span>
+<span class="normal"><a href="#__codelineno-1-68"> 68</a></span>
+<span class="normal"><a href="#__codelineno-1-69"> 69</a></span>
+<span class="normal"><a href="#__codelineno-1-70"> 70</a></span>
+<span class="normal"><a href="#__codelineno-1-71"> 71</a></span>
+<span class="normal"><a href="#__codelineno-1-72"> 72</a></span>
+<span class="normal"><a href="#__codelineno-1-73"> 73</a></span>
+<span class="normal"><a href="#__codelineno-1-74"> 74</a></span>
+<span class="normal"><a href="#__codelineno-1-75"> 75</a></span>
+<span class="normal"><a href="#__codelineno-1-76"> 76</a></span>
+<span class="normal"><a href="#__codelineno-1-77"> 77</a></span>
+<span class="normal"><a href="#__codelineno-1-78"> 78</a></span>
+<span class="normal"><a href="#__codelineno-1-79"> 79</a></span>
+<span class="normal"><a href="#__codelineno-1-80"> 80</a></span>
+<span class="normal"><a href="#__codelineno-1-81"> 81</a></span>
+<span class="normal"><a href="#__codelineno-1-82"> 82</a></span>
+<span class="normal"><a href="#__codelineno-1-83"> 83</a></span>
+<span class="normal"><a href="#__codelineno-1-84"> 84</a></span>
+<span class="normal"><a href="#__codelineno-1-85"> 85</a></span>
+<span class="normal"><a href="#__codelineno-1-86"> 86</a></span>
+<span class="normal"><a href="#__codelineno-1-87"> 87</a></span>
+<span class="normal"><a href="#__codelineno-1-88"> 88</a></span>
+<span class="normal"><a href="#__codelineno-1-89"> 89</a></span>
+<span class="normal"><a href="#__codelineno-1-90"> 90</a></span>
+<span class="normal"><a href="#__codelineno-1-91"> 91</a></span>
+<span class="normal"><a href="#__codelineno-1-92"> 92</a></span>
+<span class="normal"><a href="#__codelineno-1-93"> 93</a></span>
+<span class="normal"><a href="#__codelineno-1-94"> 94</a></span>
+<span class="normal"><a href="#__codelineno-1-95"> 95</a></span>
+<span class="normal"><a href="#__codelineno-1-96"> 96</a></span>
+<span class="normal"><a href="#__codelineno-1-97"> 97</a></span>
+<span class="normal"><a href="#__codelineno-1-98"> 98</a></span>
+<span class="normal"><a href="#__codelineno-1-99"> 99</a></span>
+<span class="normal"><a href="#__codelineno-1-100">100</a></span>
+<span class="normal"><a href="#__codelineno-1-101">101</a></span>
+<span class="normal"><a href="#__codelineno-1-102">102</a></span>
+<span class="normal"><a href="#__codelineno-1-103">103</a></span>
+<span class="normal"><a href="#__codelineno-1-104">104</a></span>
+<span class="normal"><a href="#__codelineno-1-105">105</a></span>
+<span class="normal"><a href="#__codelineno-1-106">106</a></span>
+<span class="normal"><a href="#__codelineno-1-107">107</a></span>
+<span class="normal"><a href="#__codelineno-1-108">108</a></span>
+<span class="normal"><a href="#__codelineno-1-109">109</a></span>
+<span class="normal"><a href="#__codelineno-1-110">110</a></span>
+<span class="normal"><a href="#__codelineno-1-111">111</a></span>
+<span class="normal"><a href="#__codelineno-1-112">112</a></span>
+<span class="normal"><a href="#__codelineno-1-113">113</a></span>
+<span class="normal"><a href="#__codelineno-1-114">114</a></span>
+<span class="normal"><a href="#__codelineno-1-115">115</a></span>
+<span class="normal"><a href="#__codelineno-1-116">116</a></span>
+<span class="normal"><a href="#__codelineno-1-117">117</a></span>
+<span class="normal"><a href="#__codelineno-1-118">118</a></span>
+<span class="normal"><a href="#__codelineno-1-119">119</a></span>
+<span class="normal"><a href="#__codelineno-1-120">120</a></span>
+<span class="normal"><a href="#__codelineno-1-121">121</a></span>
+<span class="normal"><a href="#__codelineno-1-122">122</a></span>
+<span class="normal"><a href="#__codelineno-1-123">123</a></span>
+<span class="normal"><a href="#__codelineno-1-124">124</a></span>
+<span class="normal"><a href="#__codelineno-1-125">125</a></span>
+<span class="normal"><a href="#__codelineno-1-126">126</a></span>
+<span class="normal"><a href="#__codelineno-1-127">127</a></span>
+<span class="normal"><a href="#__codelineno-1-128">128</a></span>
+<span class="normal"><a href="#__codelineno-1-129">129</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="c1"># Conceito de Estrutura de Código para Modelos Ocultos de Markov (HMM)</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2"></a><span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3"></a>
+<a id="__codelineno-1-4" name="__codelineno-1-4"></a><span class="k">class</span><span class="w"> </span><span class="nc">HMM</span><span class="p">:</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5"></a>    <span class="k">def</span><span class="w"> </span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">states</span><span class="p">,</span> <span class="n">observations_map</span><span class="p">,</span> <span class="n">transition_matrix</span><span class="p">,</span> <span class="n">initial_state_prob</span><span class="p">):</span>
+<a id="__codelineno-1-6" name="__codelineno-1-6"></a>        <span class="bp">self</span><span class="o">.</span><span class="n">states</span> <span class="o">=</span> <span class="n">states</span> 
+<a id="__codelineno-1-7" name="__codelineno-1-7"></a>        <span class="bp">self</span><span class="o">.</span><span class="n">observations_map</span> <span class="o">=</span> <span class="n">observations_map</span> <span class="c1"># Mapeia evidências para distribuições de probabilidade P(E|X)</span>
+<a id="__codelineno-1-8" name="__codelineno-1-8"></a>        <span class="bp">self</span><span class="o">.</span><span class="n">T</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">transition_matrix</span><span class="p">)</span> 
+<a id="__codelineno-1-9" name="__codelineno-1-9"></a>        <span class="bp">self</span><span class="o">.</span><span class="n">pi</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">initial_state_prob</span><span class="p">)</span> 
+<a id="__codelineno-1-10" name="__codelineno-1-10"></a>
+<a id="__codelineno-1-11" name="__codelineno-1-11"></a>    <span class="k">def</span><span class="w"> </span><span class="nf">_create_observation_matrix</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">observed_evidence</span><span class="p">):</span>
+<a id="__codelineno-1-12" name="__codelineno-1-12"></a>        <span class="c1"># Ot é uma matriz diagonal onde O_t[i,i] = P(observed_evidence | Xt=states[i])</span>
+<a id="__codelineno-1-13" name="__codelineno-1-13"></a>        <span class="n">S</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">states</span><span class="p">)</span>
+<a id="__codelineno-1-14" name="__codelineno-1-14"></a>        <span class="n">O_t</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">diag</span><span class="p">([</span><span class="bp">self</span><span class="o">.</span><span class="n">observations_map</span><span class="p">[</span><span class="n">state</span><span class="p">][</span><span class="n">observed_evidence</span><span class="p">]</span> <span class="k">for</span> <span class="n">state</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">states</span><span class="p">])</span>
+<a id="__codelineno-1-15" name="__codelineno-1-15"></a>        <span class="k">return</span> <span class="n">O_t</span>
+<a id="__codelineno-1-16" name="__codelineno-1-16"></a>
+<a id="__codelineno-1-17" name="__codelineno-1-17"></a>    <span class="k">def</span><span class="w"> </span><span class="nf">forward_algorithm</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">evidences_sequence</span><span class="p">):</span>
+<a id="__codelineno-1-18" name="__codelineno-1-18"></a>        <span class="c1"># Implementa o algoritmo de filtragem (forward algorithm)</span>
+<a id="__codelineno-1-19" name="__codelineno-1-19"></a>        <span class="c1"># alpha_t = alpha * Ot * T.T * alpha_t-1</span>
+<a id="__codelineno-1-20" name="__codelineno-1-20"></a>
+<a id="__codelineno-1-21" name="__codelineno-1-21"></a>        <span class="n">alpha</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">pi</span> 
+<a id="__codelineno-1-22" name="__codelineno-1-22"></a>        <span class="n">filtered_states</span> <span class="o">=</span> <span class="p">[]</span>
+<a id="__codelineno-1-23" name="__codelineno-1-23"></a>
+<a id="__codelineno-1-24" name="__codelineno-1-24"></a>        <span class="k">for</span> <span class="n">evidence</span> <span class="ow">in</span> <span class="n">evidences_sequence</span><span class="p">:</span>
+<a id="__codelineno-1-25" name="__codelineno-1-25"></a>            <span class="n">O_t</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_create_observation_matrix</span><span class="p">(</span><span class="n">evidence</span><span class="p">)</span>
+<a id="__codelineno-1-26" name="__codelineno-1-26"></a>
+<a id="__codelineno-1-27" name="__codelineno-1-27"></a>            <span class="c1"># Etapa de Predição: projected_alpha = T.T @ alpha (P(Xt+1|e1:t) não normalizado)</span>
+<a id="__codelineno-1-28" name="__codelineno-1-28"></a>            <span class="n">predicted_alpha</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">T</span><span class="o">.</span><span class="n">T</span><span class="p">,</span> <span class="n">alpha</span><span class="p">)</span>
+<a id="__codelineno-1-29" name="__codelineno-1-29"></a>
+<a id="__codelineno-1-30" name="__codelineno-1-30"></a>            <span class="c1"># Etapa de Atualização: alpha = O_t @ predicted_alpha (P(Xt+1|e1:t+1) não normalizado)</span>
+<a id="__codelineno-1-31" name="__codelineno-1-31"></a>            <span class="n">updated_alpha_unnormalized</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">O_t</span><span class="p">,</span> <span class="n">predicted_alpha</span><span class="p">)</span>
+<a id="__codelineno-1-32" name="__codelineno-1-32"></a>
+<a id="__codelineno-1-33" name="__codelineno-1-33"></a>            <span class="c1"># Normalização</span>
+<a id="__codelineno-1-34" name="__codelineno-1-34"></a>            <span class="n">alpha</span> <span class="o">=</span> <span class="n">updated_alpha_unnormalized</span> <span class="o">/</span> <span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">updated_alpha_unnormalized</span><span class="p">)</span>
+<a id="__codelineno-1-35" name="__codelineno-1-35"></a>            <span class="n">filtered_states</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">alpha</span><span class="p">)</span>
+<a id="__codelineno-1-36" name="__codelineno-1-36"></a>
+<a id="__codelineno-1-37" name="__codelineno-1-37"></a>        <span class="k">return</span> <span class="n">filtered_states</span>
+<a id="__codelineno-1-38" name="__codelineno-1-38"></a>
+<a id="__codelineno-1-39" name="__codelineno-1-39"></a>    <span class="k">def</span><span class="w"> </span><span class="nf">backward_algorithm</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">evidences_sequence</span><span class="p">):</span>
+<a id="__codelineno-1-40" name="__codelineno-1-40"></a>        <span class="c1"># Implementa o algoritmo de suavização (backward algorithm)</span>
+<a id="__codelineno-1-41" name="__codelineno-1-41"></a>        <span class="c1"># b_k:t = T * O_k+1 * b_k+1:t</span>
+<a id="__codelineno-1-42" name="__codelineno-1-42"></a>
+<a id="__codelineno-1-43" name="__codelineno-1-43"></a>        <span class="n">S</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">states</span><span class="p">)</span>
+<a id="__codelineno-1-44" name="__codelineno-1-44"></a>        <span class="n">b</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">ones</span><span class="p">(</span><span class="n">S</span><span class="p">)</span> <span class="c1"># Inicialização P(e_t+1:t | Xt) = 1 (para o último passo)</span>
+<a id="__codelineno-1-45" name="__codelineno-1-45"></a>
+<a id="__codelineno-1-46" name="__codelineno-1-46"></a>        <span class="n">backward_messages</span> <span class="o">=</span> <span class="p">[</span><span class="n">b</span><span class="p">]</span>
+<a id="__codelineno-1-47" name="__codelineno-1-47"></a>        <span class="c1"># Itera de trás para frente na sequência de evidências (excluindo a última)</span>
+<a id="__codelineno-1-48" name="__codelineno-1-48"></a>        <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">evidences_sequence</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">):</span>
+<a id="__codelineno-1-49" name="__codelineno-1-49"></a>            <span class="n">O_t_plus_1</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_create_observation_matrix</span><span class="p">(</span><span class="n">evidences_sequence</span><span class="p">[</span><span class="n">t</span><span class="p">])</span>
+<a id="__codelineno-1-50" name="__codelineno-1-50"></a>            <span class="c1"># Calcula b_k (P(e_k+1:t | X_k))</span>
+<a id="__codelineno-1-51" name="__codelineno-1-51"></a>            <span class="n">b</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">T</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">O_t_plus_1</span><span class="p">,</span> <span class="n">b</span><span class="p">))</span>
+<a id="__codelineno-1-52" name="__codelineno-1-52"></a>            <span class="n">backward_messages</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
+<a id="__codelineno-1-53" name="__codelineno-1-53"></a>
+<a id="__codelineno-1-54" name="__codelineno-1-54"></a>        <span class="k">return</span> <span class="n">backward_messages</span>
+<a id="__codelineno-1-55" name="__codelineno-1-55"></a>
+<a id="__codelineno-1-56" name="__codelineno-1-56"></a>    <span class="k">def</span><span class="w"> </span><span class="nf">smooth_states</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">evidences_sequence</span><span class="p">):</span>
+<a id="__codelineno-1-57" name="__codelineno-1-57"></a>        <span class="c1"># Combina forward e backward para suavização</span>
+<a id="__codelineno-1-58" name="__codelineno-1-58"></a>        <span class="c1"># P(Xk|e1:t) = alpha * f_1:k * b_k+1:t (elemento a elemento)</span>
+<a id="__codelineno-1-59" name="__codelineno-1-59"></a>        <span class="n">filtered_messages</span> <span class="o">=</span> <span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">pi</span><span class="p">]</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">forward_algorithm</span><span class="p">(</span><span class="n">evidences_sequence</span><span class="p">)</span> <span class="c1"># Inclui P(X0) no início</span>
+<a id="__codelineno-1-60" name="__codelineno-1-60"></a>        <span class="n">backward_messages</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">backward_algorithm</span><span class="p">(</span><span class="n">evidences_sequence</span><span class="p">)</span>
+<a id="__codelineno-1-61" name="__codelineno-1-61"></a>
+<a id="__codelineno-1-62" name="__codelineno-1-62"></a>        <span class="n">smoothed_states</span> <span class="o">=</span> <span class="p">[]</span>
+<a id="__codelineno-1-63" name="__codelineno-1-63"></a>        <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">evidences_sequence</span><span class="p">)):</span> <span class="c1"># Itera sobre t=0 até T-1 (para evidences_sequence)</span>
+<a id="__codelineno-1-64" name="__codelineno-1-64"></a>            <span class="n">smoothed_unnormalized</span> <span class="o">=</span> <span class="n">filtered_messages</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">*</span> <span class="n">backward_messages</span><span class="p">[</span><span class="n">k</span><span class="p">]</span>
+<a id="__codelineno-1-65" name="__codelineno-1-65"></a>            <span class="n">smoothed_states</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">smoothed_unnormalized</span> <span class="o">/</span> <span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">smoothed_unnormalized</span><span class="p">))</span>
+<a id="__codelineno-1-66" name="__codelineno-1-66"></a>        <span class="k">return</span> <span class="n">smoothed_states</span>
+<a id="__codelineno-1-67" name="__codelineno-1-67"></a>
+<a id="__codelineno-1-68" name="__codelineno-1-68"></a>    <span class="k">def</span><span class="w"> </span><span class="nf">viterbi_algorithm</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">evidences_sequence</span><span class="p">):</span>
+<a id="__codelineno-1-69" name="__codelineno-1-69"></a>        <span class="c1"># Implementa o algoritmo de Viterbi para encontrar a sequência de estados mais provável</span>
+<a id="__codelineno-1-70" name="__codelineno-1-70"></a>        <span class="c1"># m_1:t+1(x_t+1) = P(e_t+1|x_t+1) * max_{x_t} (P(x_t+1|x_t) * m_1:t(x_t))</span>
+<a id="__codelineno-1-71" name="__codelineno-1-71"></a>
+<a id="__codelineno-1-72" name="__codelineno-1-72"></a>        <span class="n">S</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">states</span><span class="p">)</span>
+<a id="__codelineno-1-73" name="__codelineno-1-73"></a>        <span class="n">T_steps</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">evidences_sequence</span><span class="p">)</span>
+<a id="__codelineno-1-74" name="__codelineno-1-74"></a>
+<a id="__codelineno-1-75" name="__codelineno-1-75"></a>        <span class="n">dp_table</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="n">S</span><span class="p">,</span> <span class="n">T_steps</span><span class="p">))</span> <span class="c1"># Armazena a probabilidade do caminho mais provável até o estado t</span>
+<a id="__codelineno-1-76" name="__codelineno-1-76"></a>        <span class="n">path_table</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="n">S</span><span class="p">,</span> <span class="n">T_steps</span><span class="p">),</span> <span class="n">dtype</span><span class="o">=</span><span class="nb">int</span><span class="p">)</span> <span class="c1"># Armazena os backpointers para reconstruir o caminho</span>
+<a id="__codelineno-1-77" name="__codelineno-1-77"></a>
+<a id="__codelineno-1-78" name="__codelineno-1-78"></a>        <span class="c1"># Inicialização (t=0)</span>
+<a id="__codelineno-1-79" name="__codelineno-1-79"></a>        <span class="n">O0</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_create_observation_matrix</span><span class="p">(</span><span class="n">evidences_sequence</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+<a id="__codelineno-1-80" name="__codelineno-1-80"></a>        <span class="n">dp_table</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">pi</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">diag</span><span class="p">(</span><span class="n">O0</span><span class="p">)</span>
+<a id="__codelineno-1-81" name="__codelineno-1-81"></a>
+<a id="__codelineno-1-82" name="__codelineno-1-82"></a>        <span class="c1"># Iteração para t=1 até T_steps-1</span>
+<a id="__codelineno-1-83" name="__codelineno-1-83"></a>        <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">T_steps</span><span class="p">):</span>
+<a id="__codelineno-1-84" name="__codelineno-1-84"></a>            <span class="n">O_t</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_create_observation_matrix</span><span class="p">(</span><span class="n">evidences_sequence</span><span class="p">[</span><span class="n">t</span><span class="p">])</span>
+<a id="__codelineno-1-85" name="__codelineno-1-85"></a>            <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">S</span><span class="p">):</span> <span class="c1"># Para cada estado atual j</span>
+<a id="__codelineno-1-86" name="__codelineno-1-86"></a>                <span class="n">possible_prev_probs</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="n">dp_table</span><span class="p">[</span><span class="n">i</span><span class="p">,</span> <span class="n">t</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">T</span><span class="p">[</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">]</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">S</span><span class="p">)])</span>
+<a id="__codelineno-1-87" name="__codelineno-1-87"></a>
+<a id="__codelineno-1-88" name="__codelineno-1-88"></a>                <span class="n">max_prob</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">max</span><span class="p">(</span><span class="n">possible_prev_probs</span><span class="p">)</span>
+<a id="__codelineno-1-89" name="__codelineno-1-89"></a>                <span class="n">max_idx</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">possible_prev_probs</span><span class="p">)</span>
+<a id="__codelineno-1-90" name="__codelineno-1-90"></a>
+<a id="__codelineno-1-91" name="__codelineno-1-91"></a>                <span class="n">dp_table</span><span class="p">[</span><span class="n">j</span><span class="p">,</span> <span class="n">t</span><span class="p">]</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">diag</span><span class="p">(</span><span class="n">O_t</span><span class="p">)[</span><span class="n">j</span><span class="p">]</span> <span class="o">*</span> <span class="n">max_prob</span>
+<a id="__codelineno-1-92" name="__codelineno-1-92"></a>                <span class="n">path_table</span><span class="p">[</span><span class="n">j</span><span class="p">,</span> <span class="n">t</span><span class="p">]</span> <span class="o">=</span> <span class="n">max_idx</span>
+<a id="__codelineno-1-93" name="__codelineno-1-93"></a>
+<a id="__codelineno-1-94" name="__codelineno-1-94"></a>        <span class="c1"># Reconstrução do caminho mais provável</span>
+<a id="__codelineno-1-95" name="__codelineno-1-95"></a>        <span class="n">most_likely_path</span> <span class="o">=</span> <span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">dp_table</span><span class="p">[:,</span> <span class="n">T_steps</span><span class="o">-</span><span class="mi">1</span><span class="p">])]</span>
+<a id="__codelineno-1-96" name="__codelineno-1-96"></a>        <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">T_steps</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">):</span>
+<a id="__codelineno-1-97" name="__codelineno-1-97"></a>            <span class="n">most_likely_path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">path_table</span><span class="p">[</span><span class="n">most_likely_path</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">t</span><span class="p">])</span>
+<a id="__codelineno-1-98" name="__codelineno-1-98"></a>
+<a id="__codelineno-1-99" name="__codelineno-1-99"></a>        <span class="k">return</span> <span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">states</span><span class="p">[</span><span class="n">idx</span><span class="p">]</span> <span class="k">for</span> <span class="n">idx</span> <span class="ow">in</span> <span class="n">most_likely_path</span><span class="p">]</span>
+<a id="__codelineno-1-100" name="__codelineno-1-100"></a>
+<a id="__codelineno-1-101" name="__codelineno-1-101"></a><span class="c1"># Exemplo de uso conceitual para o Mundo do Guarda-Chuva:</span>
+<a id="__codelineno-1-102" name="__codelineno-1-102"></a><span class="c1"># Estados: &#39;Rain&#39;, &#39;NoRain&#39;</span>
+<a id="__codelineno-1-103" name="__codelineno-1-103"></a><span class="c1"># Observações: &#39;Umbrella&#39;, &#39;NoUmbrella&#39;</span>
+<a id="__codelineno-1-104" name="__codelineno-1-104"></a>
+<a id="__codelineno-1-105" name="__codelineno-1-105"></a><span class="c1"># Probabilidades de Transição (T): P(Xt|Xt-1)</span>
+<a id="__codelineno-1-106" name="__codelineno-1-106"></a><span class="c1"># T[i,j] = P(State_j | State_i)</span>
+<a id="__codelineno-1-107" name="__codelineno-1-107"></a><span class="c1"># Ex: T = [[P(Rain|Rain), P(NoRain|Rain)], [P(Rain|NoRain), P(NoRain|NoRain)]]</span>
+<a id="__codelineno-1-108" name="__codelineno-1-108"></a><span class="n">transition_matrix_ex</span> <span class="o">=</span> <span class="p">[[</span><span class="mf">0.7</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">],</span> <span class="c1"># Se estava chovendo, 70% de chance de chover no próximo dia</span>
+<a id="__codelineno-1-109" name="__codelineno-1-109"></a>                        <span class="p">[</span><span class="mf">0.3</span><span class="p">,</span> <span class="mf">0.7</span><span class="p">]]</span> <span class="c1"># Se não estava chovendo, 30% de chance de chover no próximo dia</span>
+<a id="__codelineno-1-110" name="__codelineno-1-110"></a>
+<a id="__codelineno-1-111" name="__codelineno-1-111"></a><span class="c1"># Probabilidades Iniciais (pi): P(X0)</span>
+<a id="__codelineno-1-112" name="__codelineno-1-112"></a><span class="c1"># Ex: pi = [P(Rain), P(NoRain)]</span>
+<a id="__codelineno-1-113" name="__codelineno-1-113"></a><span class="n">initial_state_prob_ex</span> <span class="o">=</span> <span class="p">[</span><span class="mf">0.5</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">]</span> <span class="c1"># 50% de chance de chover no dia 0</span>
+<a id="__codelineno-1-114" name="__codelineno-1-114"></a>
+<a id="__codelineno-1-115" name="__codelineno-1-115"></a><span class="c1"># Probabilidades de Observação (observations_map): P(E|X)</span>
+<a id="__codelineno-1-116" name="__codelineno-1-116"></a><span class="n">observations_map_ex</span> <span class="o">=</span> <span class="p">{</span>
+<a id="__codelineno-1-117" name="__codelineno-1-117"></a>    <span class="s1">&#39;Rain&#39;</span><span class="p">:</span> <span class="p">{</span><span class="s1">&#39;Umbrella&#39;</span><span class="p">:</span> <span class="mf">0.9</span><span class="p">,</span> <span class="s1">&#39;NoUmbrella&#39;</span><span class="p">:</span> <span class="mf">0.1</span><span class="p">},</span> <span class="c1"># Se está chovendo, 90% de chance de levar guarda-chuva</span>
+<a id="__codelineno-1-118" name="__codelineno-1-118"></a>    <span class="s1">&#39;NoRain&#39;</span><span class="p">:</span> <span class="p">{</span><span class="s1">&#39;Umbrella&#39;</span><span class="p">:</span> <span class="mf">0.2</span><span class="p">,</span> <span class="s1">&#39;NoUmbrella&#39;</span><span class="p">:</span> <span class="mf">0.8</span><span class="p">}</span> <span class="c1"># Se não está chovendo, 20% de chance de levar guarda-chuva (por precaução)</span>
+<a id="__codelineno-1-119" name="__codelineno-1-119"></a><span class="p">}</span>
+<a id="__codelineno-1-120" name="__codelineno-1-120"></a>
+<a id="__codelineno-1-121" name="__codelineno-1-121"></a><span class="n">hmm_model</span> <span class="o">=</span> <span class="n">HMM</span><span class="p">(</span>
+<a id="__codelineno-1-122" name="__codelineno-1-122"></a>    <span class="n">states</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;Rain&#39;</span><span class="p">,</span> <span class="s1">&#39;NoRain&#39;</span><span class="p">],</span>
+<a id="__codelineno-1-123" name="__codelineno-1-123"></a>    <span class="n">observations_map</span><span class="o">=</span><span class="n">observations_map_ex</span><span class="p">,</span>
+<a id="__codelineno-1-124" name="__codelineno-1-124"></a>    <span class="n">transition_matrix</span><span class="o">=</span><span class="n">transition_matrix_ex</span><span class="p">,</span>
+<a id="__codelineno-1-125" name="__codelineno-1-125"></a>    <span class="n">initial_state_prob</span><span class="o">=</span><span class="n">initial_state_prob_ex</span>
+<a id="__codelineno-1-126" name="__codelineno-1-126"></a><span class="p">)</span>
+<a id="__codelineno-1-127" name="__codelineno-1-127"></a>
+<a id="__codelineno-1-128" name="__codelineno-1-128"></a><span class="c1"># Exemplo de sequência de evidências (observações de guarda-chuva ao longo de 3 dias)</span>
+<a id="__codelineno-1-129" name="__codelineno-1-129"></a><span class="n">evidences</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Umbrella&#39;</span><span class="p">,</span> <span class="s1">&#39;Umbrella&#39;</span><span class="p">,</span> <span class="s1">&#39;NoUmbrella&#39;</span><span class="p">]</span>
+</code></pre></div></td></tr></table></div>
+<hr />
+<h2 id="3-filtros-de-kalman">3. Filtros de Kalman</h2>
+<p>Até o momento, foi abordado os modelos onde as variáveis de estado eram discretas. Mas e se o estado do mundo é contínuo, como a posição e velocidade de um carro, ou a temperatura de uma sala? Para esses cenários, os <strong>Filtros de Kalman</strong> são uma ferramenta poderosa para a <strong>estimação ótima de estados em sistemas dinâmicos lineares com ruído Gaussiano</strong>.</p>
+<p>Um Filtro de Kalman é um algoritmo recursivo que permite estimar o estado de um processo com base em uma série de medições ruidosas. Ele é amplamente utilizado em navegação, controle de robôs, sistemas de rastreamento e muitas outras aplicações de engenharia e IA.</p>
+<p>A intuição por trás do Filtro de Kalman é que ele combina duas fontes de informação:</p>
+<ol>
+<li><strong>Modelo de Previsão (Modelo de Transição de Estado)</strong>: Como o estado do sistema se espera que evolua ao longo do tempo. Este modelo é baseado nas leis da física ou em um entendimento do comportamento do sistema, e também inclui o ruído do processo (incerteza em como o sistema se move).</li>
+<li><strong>Modelo de Medição (Modelo de Sensor)</strong>: Como as medições observadas se relacionam com o estado verdadeiro do sistema. Este modelo também considera o ruído da medição (incerteza nas leituras do sensor).</li>
+</ol>
+<p>O filtro opera em duas fases principais de forma recursiva:</p>
+<ul>
+<li><strong>Fase de Predição</strong>: O filtro estima o estado atual e a incerteza associada com base na estimativa do estado anterior e no modelo de transição do sistema. Isso gera uma "previsão a priori" ou "predição".</li>
+<li><strong>Fase de Atualização</strong>: Quando uma nova medição se torna disponível, o filtro combina essa medição com a previsão a priori para refinar a estimativa do estado. A medição ruidosa é ponderada pela sua incerteza e pela incerteza da previsão, resultando em uma "estimativa a posteriori" ou "correção".</li>
+</ul>
+<p>A beleza do Filtro de Kalman reside em sua capacidade de fornecer uma estimativa ótima (no sentido de minimizar o erro quadrático médio) para sistemas lineares Gaussianos, mesmo quando as medições são imprecisas e o sistema é afetado por ruído. A incerteza do estado é representada por uma <strong>matriz de covariância</strong>, que é atualizada em cada passo do tempo, refletindo como a confiança na estimativa do estado muda.</p>
+<h3 id="equacoes-do-filtro-de-kalman">Equações do Filtro de Kalman</h3>
+<p>Vamos representar o estado do sistema no tempo <code>t</code> como um vetor <code>x_t</code> e a medição como um vetor <code>z_t</code>.</p>
+<p><strong>Fase de Predição:</strong></p>
+<ol>
+<li><strong>Estado Previsto (a priori)</strong>: <code>x̂_t|t-1 = F_t * x̂_t-1|t-1 + B_t * u_t</code><ul>
+<li><code>x̂_t|t-1</code>: Estimativa do estado no tempo <code>t</code> baseada nas informações até <code>t-1</code>.</li>
+<li><code>F_t</code>: Matriz de transição de estado.</li>
+<li><code>x̂_t-1|t-1</code>: Estimativa do estado anterior (corrigida).</li>
+<li><code>B_t</code>: Matriz de controle (opcional, para entradas de controle <code>u_t</code>).</li>
+<li><code>u_t</code>: Vetor de controle.</li>
+</ul>
+</li>
+<li><strong>Covariância Prevista (a priori)</strong>: <code>P_t|t-1 = F_t * P_t-1|t-1 * F_t.T + Q_t</code><ul>
+<li><code>P_t|t-1</code>: Matriz de covariância do erro da previsão.</li>
+<li><code>P_t-1|t-1</code>: Matriz de covariância do erro da estimativa anterior (corrigida).</li>
+<li><code>Q_t</code>: Matriz de covariância do ruído do processo (reflete incertezas no modelo).</li>
+</ul>
+</li>
+</ol>
+<p><strong>Fase de Atualização:</strong></p>
+<ol>
+<li><strong>Ganho de Kalman</strong>: <code>K_t = P_t|t-1 * H_t.T * (H_t * P_t|t-1 * H_t.T + R_t)^-1</code><ul>
+<li><code>K_t</code>: Ganho de Kalman, pondera o quanto a medição influencia a correção da estimativa.</li>
+<li><code>H_t</code>: Matriz de observação (transforma o estado em espaço de medição).</li>
+<li><code>R_t</code>: Matriz de covariância do ruído da medição (reflete incertezas do sensor).</li>
+</ul>
+</li>
+<li><strong>Estado Corrigido (a posteriori)</strong>: <code>x̂_t|t = x̂_t|t-1 + K_t * (z_t - H_t * x̂_t|t-1)</code><ul>
+<li><code>x̂_t|t</code>: Estimativa final do estado no tempo <code>t</code> após incorporar a medição.</li>
+<li><code>z_t</code>: Vetor de medições no tempo <code>t</code>.</li>
+</ul>
+</li>
+<li><strong>Covariância Corrigida (a posteriori)</strong>: <code>P_t|t = (I - K_t * H_t) * P_t|t-1</code><ul>
+<li><code>P_t|t</code>: Matriz de covariância do erro da estimativa corrigida.</li>
+<li><code>I</code>: Matriz identidade.</li>
+</ul>
+</li>
+</ol>
+<h3 id="exemplo-de-aplicacao">Exemplo de Aplicação</h3>
+<p>Considere o rastreamento de um objeto se movendo em uma dimensão (por exemplo, um carro em uma estrada reta). O estado <code>x</code> pode ser definido como <code>[posição, velocidade]</code>.</p>
+<div class="language-python highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Python</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-2-1">  1</a></span>
+<span class="normal"><a href="#__codelineno-2-2">  2</a></span>
+<span class="normal"><a href="#__codelineno-2-3">  3</a></span>
+<span class="normal"><a href="#__codelineno-2-4">  4</a></span>
+<span class="normal"><a href="#__codelineno-2-5">  5</a></span>
+<span class="normal"><a href="#__codelineno-2-6">  6</a></span>
+<span class="normal"><a href="#__codelineno-2-7">  7</a></span>
+<span class="normal"><a href="#__codelineno-2-8">  8</a></span>
+<span class="normal"><a href="#__codelineno-2-9">  9</a></span>
+<span class="normal"><a href="#__codelineno-2-10"> 10</a></span>
+<span class="normal"><a href="#__codelineno-2-11"> 11</a></span>
+<span class="normal"><a href="#__codelineno-2-12"> 12</a></span>
+<span class="normal"><a href="#__codelineno-2-13"> 13</a></span>
+<span class="normal"><a href="#__codelineno-2-14"> 14</a></span>
+<span class="normal"><a href="#__codelineno-2-15"> 15</a></span>
+<span class="normal"><a href="#__codelineno-2-16"> 16</a></span>
+<span class="normal"><a href="#__codelineno-2-17"> 17</a></span>
+<span class="normal"><a href="#__codelineno-2-18"> 18</a></span>
+<span class="normal"><a href="#__codelineno-2-19"> 19</a></span>
+<span class="normal"><a href="#__codelineno-2-20"> 20</a></span>
+<span class="normal"><a href="#__codelineno-2-21"> 21</a></span>
+<span class="normal"><a href="#__codelineno-2-22"> 22</a></span>
+<span class="normal"><a href="#__codelineno-2-23"> 23</a></span>
+<span class="normal"><a href="#__codelineno-2-24"> 24</a></span>
+<span class="normal"><a href="#__codelineno-2-25"> 25</a></span>
+<span class="normal"><a href="#__codelineno-2-26"> 26</a></span>
+<span class="normal"><a href="#__codelineno-2-27"> 27</a></span>
+<span class="normal"><a href="#__codelineno-2-28"> 28</a></span>
+<span class="normal"><a href="#__codelineno-2-29"> 29</a></span>
+<span class="normal"><a href="#__codelineno-2-30"> 30</a></span>
+<span class="normal"><a href="#__codelineno-2-31"> 31</a></span>
+<span class="normal"><a href="#__codelineno-2-32"> 32</a></span>
+<span class="normal"><a href="#__codelineno-2-33"> 33</a></span>
+<span class="normal"><a href="#__codelineno-2-34"> 34</a></span>
+<span class="normal"><a href="#__codelineno-2-35"> 35</a></span>
+<span class="normal"><a href="#__codelineno-2-36"> 36</a></span>
+<span class="normal"><a href="#__codelineno-2-37"> 37</a></span>
+<span class="normal"><a href="#__codelineno-2-38"> 38</a></span>
+<span class="normal"><a href="#__codelineno-2-39"> 39</a></span>
+<span class="normal"><a href="#__codelineno-2-40"> 40</a></span>
+<span class="normal"><a href="#__codelineno-2-41"> 41</a></span>
+<span class="normal"><a href="#__codelineno-2-42"> 42</a></span>
+<span class="normal"><a href="#__codelineno-2-43"> 43</a></span>
+<span class="normal"><a href="#__codelineno-2-44"> 44</a></span>
+<span class="normal"><a href="#__codelineno-2-45"> 45</a></span>
+<span class="normal"><a href="#__codelineno-2-46"> 46</a></span>
+<span class="normal"><a href="#__codelineno-2-47"> 47</a></span>
+<span class="normal"><a href="#__codelineno-2-48"> 48</a></span>
+<span class="normal"><a href="#__codelineno-2-49"> 49</a></span>
+<span class="normal"><a href="#__codelineno-2-50"> 50</a></span>
+<span class="normal"><a href="#__codelineno-2-51"> 51</a></span>
+<span class="normal"><a href="#__codelineno-2-52"> 52</a></span>
+<span class="normal"><a href="#__codelineno-2-53"> 53</a></span>
+<span class="normal"><a href="#__codelineno-2-54"> 54</a></span>
+<span class="normal"><a href="#__codelineno-2-55"> 55</a></span>
+<span class="normal"><a href="#__codelineno-2-56"> 56</a></span>
+<span class="normal"><a href="#__codelineno-2-57"> 57</a></span>
+<span class="normal"><a href="#__codelineno-2-58"> 58</a></span>
+<span class="normal"><a href="#__codelineno-2-59"> 59</a></span>
+<span class="normal"><a href="#__codelineno-2-60"> 60</a></span>
+<span class="normal"><a href="#__codelineno-2-61"> 61</a></span>
+<span class="normal"><a href="#__codelineno-2-62"> 62</a></span>
+<span class="normal"><a href="#__codelineno-2-63"> 63</a></span>
+<span class="normal"><a href="#__codelineno-2-64"> 64</a></span>
+<span class="normal"><a href="#__codelineno-2-65"> 65</a></span>
+<span class="normal"><a href="#__codelineno-2-66"> 66</a></span>
+<span class="normal"><a href="#__codelineno-2-67"> 67</a></span>
+<span class="normal"><a href="#__codelineno-2-68"> 68</a></span>
+<span class="normal"><a href="#__codelineno-2-69"> 69</a></span>
+<span class="normal"><a href="#__codelineno-2-70"> 70</a></span>
+<span class="normal"><a href="#__codelineno-2-71"> 71</a></span>
+<span class="normal"><a href="#__codelineno-2-72"> 72</a></span>
+<span class="normal"><a href="#__codelineno-2-73"> 73</a></span>
+<span class="normal"><a href="#__codelineno-2-74"> 74</a></span>
+<span class="normal"><a href="#__codelineno-2-75"> 75</a></span>
+<span class="normal"><a href="#__codelineno-2-76"> 76</a></span>
+<span class="normal"><a href="#__codelineno-2-77"> 77</a></span>
+<span class="normal"><a href="#__codelineno-2-78"> 78</a></span>
+<span class="normal"><a href="#__codelineno-2-79"> 79</a></span>
+<span class="normal"><a href="#__codelineno-2-80"> 80</a></span>
+<span class="normal"><a href="#__codelineno-2-81"> 81</a></span>
+<span class="normal"><a href="#__codelineno-2-82"> 82</a></span>
+<span class="normal"><a href="#__codelineno-2-83"> 83</a></span>
+<span class="normal"><a href="#__codelineno-2-84"> 84</a></span>
+<span class="normal"><a href="#__codelineno-2-85"> 85</a></span>
+<span class="normal"><a href="#__codelineno-2-86"> 86</a></span>
+<span class="normal"><a href="#__codelineno-2-87"> 87</a></span>
+<span class="normal"><a href="#__codelineno-2-88"> 88</a></span>
+<span class="normal"><a href="#__codelineno-2-89"> 89</a></span>
+<span class="normal"><a href="#__codelineno-2-90"> 90</a></span>
+<span class="normal"><a href="#__codelineno-2-91"> 91</a></span>
+<span class="normal"><a href="#__codelineno-2-92"> 92</a></span>
+<span class="normal"><a href="#__codelineno-2-93"> 93</a></span>
+<span class="normal"><a href="#__codelineno-2-94"> 94</a></span>
+<span class="normal"><a href="#__codelineno-2-95"> 95</a></span>
+<span class="normal"><a href="#__codelineno-2-96"> 96</a></span>
+<span class="normal"><a href="#__codelineno-2-97"> 97</a></span>
+<span class="normal"><a href="#__codelineno-2-98"> 98</a></span>
+<span class="normal"><a href="#__codelineno-2-99"> 99</a></span>
+<span class="normal"><a href="#__codelineno-2-100">100</a></span>
+<span class="normal"><a href="#__codelineno-2-101">101</a></span>
+<span class="normal"><a href="#__codelineno-2-102">102</a></span>
+<span class="normal"><a href="#__codelineno-2-103">103</a></span>
+<span class="normal"><a href="#__codelineno-2-104">104</a></span>
+<span class="normal"><a href="#__codelineno-2-105">105</a></span>
+<span class="normal"><a href="#__codelineno-2-106">106</a></span>
+<span class="normal"><a href="#__codelineno-2-107">107</a></span>
+<span class="normal"><a href="#__codelineno-2-108">108</a></span>
+<span class="normal"><a href="#__codelineno-2-109">109</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1"></a><span class="c1"># Conceito de Estrutura de Código para Filtro de Kalman</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2"></a><span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3"></a>
+<a id="__codelineno-2-4" name="__codelineno-2-4"></a><span class="k">class</span><span class="w"> </span><span class="nc">KalmanFilter</span><span class="p">:</span>
+<a id="__codelineno-2-5" name="__codelineno-2-5"></a>    <span class="k">def</span><span class="w"> </span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">initial_state</span><span class="p">,</span> <span class="n">initial_covariance</span><span class="p">,</span> <span class="n">F</span><span class="p">,</span> <span class="n">H</span><span class="p">,</span> <span class="n">Q</span><span class="p">,</span> <span class="n">R</span><span class="p">,</span> <span class="n">B</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+<a id="__codelineno-2-6" name="__codelineno-2-6"></a>        <span class="bp">self</span><span class="o">.</span><span class="n">x_hat</span> <span class="o">=</span> <span class="n">initial_state</span>         
+<a id="__codelineno-2-7" name="__codelineno-2-7"></a>        <span class="bp">self</span><span class="o">.</span><span class="n">P</span> <span class="o">=</span> <span class="n">initial_covariance</span>        <span class="c1"># P_t-1|t-1 (Covariância inicial do erro)</span>
+<a id="__codelineno-2-8" name="__codelineno-2-8"></a>        <span class="bp">self</span><span class="o">.</span><span class="n">F</span> <span class="o">=</span> <span class="n">F</span>                         
+<a id="__codelineno-2-9" name="__codelineno-2-9"></a>        <span class="bp">self</span><span class="o">.</span><span class="n">H</span> <span class="o">=</span> <span class="n">H</span>                         
+<a id="__codelineno-2-10" name="__codelineno-2-10"></a>        <span class="bp">self</span><span class="o">.</span><span class="n">Q</span> <span class="o">=</span> <span class="n">Q</span>                         
+<a id="__codelineno-2-11" name="__codelineno-2-11"></a>        <span class="bp">self</span><span class="o">.</span><span class="n">R</span> <span class="o">=</span> <span class="n">R</span>                         
+<a id="__codelineno-2-12" name="__codelineno-2-12"></a>        <span class="bp">self</span><span class="o">.</span><span class="n">B</span> <span class="o">=</span> <span class="n">B</span>                         
+<a id="__codelineno-2-13" name="__codelineno-2-13"></a>
+<a id="__codelineno-2-14" name="__codelineno-2-14"></a>    <span class="k">def</span><span class="w"> </span><span class="nf">predict</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">u</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+<a id="__codelineno-2-15" name="__codelineno-2-15"></a>        <span class="c1"># 1. Estado Previsto: x̂_t|t-1 = F_t * x̂_t-1|t-1 + B_t * u_t</span>
+<a id="__codelineno-2-16" name="__codelineno-2-16"></a>        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">B</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">u</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+<a id="__codelineno-2-17" name="__codelineno-2-17"></a>            <span class="bp">self</span><span class="o">.</span><span class="n">x_hat_prior</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">F</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">x_hat</span><span class="p">)</span> <span class="o">+</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">B</span><span class="p">,</span> <span class="n">u</span><span class="p">)</span>
+<a id="__codelineno-2-18" name="__codelineno-2-18"></a>        <span class="k">else</span><span class="p">:</span>
+<a id="__codelineno-2-19" name="__codelineno-2-19"></a>            <span class="bp">self</span><span class="o">.</span><span class="n">x_hat_prior</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">F</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">x_hat</span><span class="p">)</span>
+<a id="__codelineno-2-20" name="__codelineno-2-20"></a>
+<a id="__codelineno-2-21" name="__codelineno-2-21"></a>        <span class="c1"># 2. Covariância Prevista: P_t|t-1 = F_t * P_t-1|t-1 * F_t.T + Q_t</span>
+<a id="__codelineno-2-22" name="__codelineno-2-22"></a>        <span class="bp">self</span><span class="o">.</span><span class="n">P_prior</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">F</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">P</span><span class="p">),</span> <span class="bp">self</span><span class="o">.</span><span class="n">F</span><span class="o">.</span><span class="n">T</span><span class="p">)</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">Q</span>
+<a id="__codelineno-2-23" name="__codelineno-2-23"></a>
+<a id="__codelineno-2-24" name="__codelineno-2-24"></a>        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">x_hat_prior</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">P_prior</span>
+<a id="__codelineno-2-25" name="__codelineno-2-25"></a>
+<a id="__codelineno-2-26" name="__codelineno-2-26"></a>    <span class="k">def</span><span class="w"> </span><span class="nf">update</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">z</span><span class="p">):</span>
+<a id="__codelineno-2-27" name="__codelineno-2-27"></a>        <span class="c1"># 3. Ganho de Kalman: K_t = P_t|t-1 * H_t.T * (H_t * P_t|t-1 * H_t.T + R_t)^-1</span>
+<a id="__codelineno-2-28" name="__codelineno-2-28"></a>        <span class="c1"># Inovação ou Resíduo: y = z_t - H_t * x̂_t|t-1</span>
+<a id="__codelineno-2-29" name="__codelineno-2-29"></a>        <span class="n">y</span> <span class="o">=</span> <span class="n">z</span> <span class="o">-</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">H</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">x_hat_prior</span><span class="p">)</span>
+<a id="__codelineno-2-30" name="__codelineno-2-30"></a>
+<a id="__codelineno-2-31" name="__codelineno-2-31"></a>        <span class="c1"># Covariância da Inovação: S = H_t * P_t|t-1 * H_t.T + R_t</span>
+<a id="__codelineno-2-32" name="__codelineno-2-32"></a>        <span class="n">S</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">H</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">P_prior</span><span class="p">),</span> <span class="bp">self</span><span class="o">.</span><span class="n">H</span><span class="o">.</span><span class="n">T</span><span class="p">)</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">R</span>
+<a id="__codelineno-2-33" name="__codelineno-2-33"></a>
+<a id="__codelineno-2-34" name="__codelineno-2-34"></a>        <span class="n">K</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">P_prior</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">H</span><span class="o">.</span><span class="n">T</span><span class="p">),</span> <span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">inv</span><span class="p">(</span><span class="n">S</span><span class="p">))</span>
+<a id="__codelineno-2-35" name="__codelineno-2-35"></a>
+<a id="__codelineno-2-36" name="__codelineno-2-36"></a>        <span class="c1"># 4. Estado Corrigido: x̂_t|t = x̂_t|t-1 + K_t * (z_t - H_t * x̂_t|t-1)</span>
+<a id="__codelineno-2-37" name="__codelineno-2-37"></a>        <span class="bp">self</span><span class="o">.</span><span class="n">x_hat</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">x_hat_prior</span> <span class="o">+</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">K</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+<a id="__codelineno-2-38" name="__codelineno-2-38"></a>
+<a id="__codelineno-2-39" name="__codelineno-2-39"></a>        <span class="c1"># 5. Covariância Corrigida: P_t|t = (I - K_t * H_t) * P_t|t-1</span>
+<a id="__codelineno-2-40" name="__codelineno-2-40"></a>        <span class="n">I</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">eye</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">P</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+<a id="__codelineno-2-41" name="__codelineno-2-41"></a>        <span class="bp">self</span><span class="o">.</span><span class="n">P</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">((</span><span class="n">I</span> <span class="o">-</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">K</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">H</span><span class="p">)),</span> <span class="bp">self</span><span class="o">.</span><span class="n">P_prior</span><span class="p">)</span>
+<a id="__codelineno-2-42" name="__codelineno-2-42"></a>
+<a id="__codelineno-2-43" name="__codelineno-2-43"></a>        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">x_hat</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">P</span>
+<a id="__codelineno-2-44" name="__codelineno-2-44"></a>
+<a id="__codelineno-2-45" name="__codelineno-2-45"></a><span class="c1"># --- Exemplo de Uso de um Filtro de Kalman para Rastreamento de Posição/Velocidade ---</span>
+<a id="__codelineno-2-46" name="__codelineno-2-46"></a>
+<a id="__codelineno-2-47" name="__codelineno-2-47"></a><span class="c1"># Definindo o intervalo de tempo (dt) e o ruído</span>
+<a id="__codelineno-2-48" name="__codelineno-2-48"></a><span class="n">dt</span> <span class="o">=</span> <span class="mf">1.0</span> <span class="c1"># Segundo</span>
+<a id="__codelineno-2-49" name="__codelineno-2-49"></a><span class="n">process_noise_std</span> <span class="o">=</span> <span class="mf">0.1</span> <span class="c1"># Desvio padrão do ruído do processo</span>
+<a id="__codelineno-2-50" name="__codelineno-2-50"></a><span class="n">measurement_noise_std</span> <span class="o">=</span> <span class="mf">0.5</span> <span class="c1"># Desvio padrão do ruído da medição</span>
+<a id="__codelineno-2-51" name="__codelineno-2-51"></a>
+<a id="__codelineno-2-52" name="__codelineno-2-52"></a><span class="c1"># Estado inicial: [posição, velocidade]</span>
+<a id="__codelineno-2-53" name="__codelineno-2-53"></a><span class="n">initial_state</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mf">0.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">])</span> <span class="c1"># Posição 0, velocidade 0</span>
+<a id="__codelineno-2-54" name="__codelineno-2-54"></a><span class="c1"># Covariância inicial: Muita incerteza no início</span>
+<a id="__codelineno-2-55" name="__codelineno-2-55"></a><span class="n">initial_covariance</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mf">1.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">],</span>
+<a id="__codelineno-2-56" name="__codelineno-2-56"></a>                               <span class="p">[</span><span class="mf">0.0</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">]])</span>
+<a id="__codelineno-2-57" name="__codelineno-2-57"></a>
+<a id="__codelineno-2-58" name="__codelineno-2-58"></a><span class="c1"># Matriz de Transição de Estado (F):</span>
+<a id="__codelineno-2-59" name="__codelineno-2-59"></a><span class="c1"># Nova posição = Posição anterior + Velocidade * dt</span>
+<a id="__codelineno-2-60" name="__codelineno-2-60"></a><span class="n">F_matrix</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mf">1.0</span><span class="p">,</span> <span class="n">dt</span><span class="p">],</span>
+<a id="__codelineno-2-61" name="__codelineno-2-61"></a>                     <span class="p">[</span><span class="mf">0.0</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">]])</span>
+<a id="__codelineno-2-62" name="__codelineno-2-62"></a>
+<a id="__codelineno-2-63" name="__codelineno-2-63"></a><span class="c1"># Matriz de Observação (H):</span>
+<a id="__codelineno-2-64" name="__codelineno-2-64"></a><span class="n">H_matrix</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mf">1.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">]])</span>
+<a id="__codelineno-2-65" name="__codelineno-2-65"></a>
+<a id="__codelineno-2-66" name="__codelineno-2-66"></a><span class="c1"># Matriz de Covariância do Ruído do Processo (Q):</span>
+<a id="__codelineno-2-67" name="__codelineno-2-67"></a><span class="n">Q_matrix</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mf">0.25</span> <span class="o">*</span> <span class="n">dt</span><span class="o">**</span><span class="mi">4</span><span class="p">,</span> <span class="mf">0.5</span> <span class="o">*</span> <span class="n">dt</span><span class="o">**</span><span class="mi">3</span><span class="p">],</span>
+<a id="__codelineno-2-68" name="__codelineno-2-68"></a>                     <span class="p">[</span><span class="mf">0.5</span> <span class="o">*</span> <span class="n">dt</span><span class="o">**</span><span class="mi">3</span><span class="p">,</span> <span class="n">dt</span><span class="o">**</span><span class="mi">2</span><span class="p">]])</span> <span class="o">*</span> <span class="n">process_noise_std</span><span class="o">**</span><span class="mi">2</span>
+<a id="__codelineno-2-69" name="__codelineno-2-69"></a>
+<a id="__codelineno-2-70" name="__codelineno-2-70"></a><span class="c1"># Matriz de Covariância do Ruído da Medição (R):</span>
+<a id="__codelineno-2-71" name="__codelineno-2-71"></a><span class="c1"># Reflete a incerteza das leituras do sensor (GPS ruidoso).</span>
+<a id="__codelineno-2-72" name="__codelineno-2-72"></a><span class="n">R_matrix</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="n">measurement_noise_std</span><span class="o">**</span><span class="mi">2</span><span class="p">]])</span>
+<a id="__codelineno-2-73" name="__codelineno-2-73"></a>
+<a id="__codelineno-2-74" name="__codelineno-2-74"></a><span class="c1"># Criando o filtro de Kalman</span>
+<a id="__codelineno-2-75" name="__codelineno-2-75"></a><span class="n">kf</span> <span class="o">=</span> <span class="n">KalmanFilter</span><span class="p">(</span><span class="n">initial_state</span><span class="p">,</span> <span class="n">initial_covariance</span><span class="p">,</span> <span class="n">F_matrix</span><span class="p">,</span> <span class="n">H_matrix</span><span class="p">,</span> <span class="n">Q_matrix</span><span class="p">,</span> <span class="n">R_matrix</span><span class="p">)</span>
+<a id="__codelineno-2-76" name="__codelineno-2-76"></a>
+<a id="__codelineno-2-77" name="__codelineno-2-77"></a><span class="n">true_positions</span> <span class="o">=</span> <span class="p">[]</span>
+<a id="__codelineno-2-78" name="__codelineno-2-78"></a><span class="n">measured_positions</span> <span class="o">=</span> <span class="p">[]</span>
+<a id="__codelineno-2-79" name="__codelineno-2-79"></a><span class="n">estimated_positions</span> <span class="o">=</span> <span class="p">[]</span>
+<a id="__codelineno-2-80" name="__codelineno-2-80"></a>
+<a id="__codelineno-2-81" name="__codelineno-2-81"></a><span class="n">true_pos</span> <span class="o">=</span> <span class="mf">0.0</span>
+<a id="__codelineno-2-82" name="__codelineno-2-82"></a><span class="n">true_vel</span> <span class="o">=</span> <span class="mf">1.0</span> <span class="c1"># Velocidade constante de 1 m/s</span>
+<a id="__codelineno-2-83" name="__codelineno-2-83"></a>
+<a id="__codelineno-2-84" name="__codelineno-2-84"></a><span class="n">num_steps</span> <span class="o">=</span> <span class="mi">20</span>
+<a id="__codelineno-2-85" name="__codelineno-2-85"></a><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">num_steps</span><span class="p">):</span>
+<a id="__codelineno-2-86" name="__codelineno-2-86"></a>    <span class="c1"># Simula o estado real (com algum ruído de processo real)</span>
+<a id="__codelineno-2-87" name="__codelineno-2-87"></a>    <span class="n">process_noise</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">normal</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">process_noise_std</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span> <span class="c1"># [ruído_pos, ruído_vel]</span>
+<a id="__codelineno-2-88" name="__codelineno-2-88"></a>    <span class="n">true_pos</span> <span class="o">=</span> <span class="n">true_pos</span> <span class="o">+</span> <span class="n">true_vel</span> <span class="o">*</span> <span class="n">dt</span> <span class="o">+</span> <span class="n">process_noise</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<a id="__codelineno-2-89" name="__codelineno-2-89"></a>    <span class="n">true_vel</span> <span class="o">=</span> <span class="n">true_vel</span> <span class="o">+</span> <span class="n">process_noise</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="c1"># Velocidade pode variar ligeiramente</span>
+<a id="__codelineno-2-90" name="__codelineno-2-90"></a>
+<a id="__codelineno-2-91" name="__codelineno-2-91"></a>    <span class="n">true_state</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="n">true_pos</span><span class="p">,</span> <span class="n">true_vel</span><span class="p">])</span>
+<a id="__codelineno-2-92" name="__codelineno-2-92"></a>    <span class="n">true_positions</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">true_state</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+<a id="__codelineno-2-93" name="__codelineno-2-93"></a>
+<a id="__codelineno-2-94" name="__codelineno-2-94"></a>    <span class="c1"># Simula a medição ruidosa (apenas posição)</span>
+<a id="__codelineno-2-95" name="__codelineno-2-95"></a>    <span class="n">measurement_noise</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">normal</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">measurement_noise_std</span><span class="p">)</span>
+<a id="__codelineno-2-96" name="__codelineno-2-96"></a>    <span class="n">measured_pos</span> <span class="o">=</span> <span class="n">true_pos</span> <span class="o">+</span> <span class="n">measurement_noise</span>
+<a id="__codelineno-2-97" name="__codelineno-2-97"></a>    <span class="n">measured_positions</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">measured_pos</span><span class="p">)</span>
+<a id="__codelineno-2-98" name="__codelineno-2-98"></a>
+<a id="__codelineno-2-99" name="__codelineno-2-99"></a>    <span class="c1"># Aplica o Filtro de Kalman</span>
+<a id="__codelineno-2-100" name="__codelineno-2-100"></a>    <span class="n">kf</span><span class="o">.</span><span class="n">predict</span><span class="p">()</span>
+<a id="__codelineno-2-101" name="__codelineno-2-101"></a>    <span class="n">estimated_state</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">kf</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="n">measured_pos</span><span class="p">]))</span>
+<a id="__codelineno-2-102" name="__codelineno-2-102"></a>    <span class="n">estimated_positions</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">estimated_state</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+<a id="__codelineno-2-103" name="__codelineno-2-103"></a>
+<a id="__codelineno-2-104" name="__codelineno-2-104"></a><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">--- Exemplo de Rastreamento com Filtro de Kalman ---&quot;</span><span class="p">)</span>
+<a id="__codelineno-2-105" name="__codelineno-2-105"></a><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Número de passos simulados: </span><span class="si">{</span><span class="n">num_steps</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<a id="__codelineno-2-106" name="__codelineno-2-106"></a><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Primeiras 5 Posições Reais: </span><span class="si">{</span><span class="n">true_positions</span><span class="p">[:</span><span class="mi">5</span><span class="p">]</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<a id="__codelineno-2-107" name="__codelineno-2-107"></a><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Primeiras 5 Posições Medidas: </span><span class="si">{</span><span class="n">measured_positions</span><span class="p">[:</span><span class="mi">5</span><span class="p">]</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<a id="__codelineno-2-108" name="__codelineno-2-108"></a><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Primeiras 5 Posições Estimadas: </span><span class="si">{</span><span class="n">estimated_positions</span><span class="p">[:</span><span class="mi">5</span><span class="p">]</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<a id="__codelineno-2-109" name="__codelineno-2-109"></a><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">(Em um portfólio real, gráficos mostrando a redução do ruído seriam ideais)&quot;</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+<hr />
+<h2 id="referencias"><strong>Referências</strong></h2>
+<ul>
+<li>RUSSELL, Stuart J.; NORVIG, Peter. <em>Inteligência Artificial</em>. 3. ed. Rio de Janeiro: Elsevier, 2013. (Título original: <em>Artificial Intelligence: A Modern Approach</em>)</li>
+<li>LUGER, George F. <em>Inteligência Artificial: estruturas e estratégias para a resolução de problemas complexos</em>. 6. ed. Pearson, 2009.</li>
+<li>NILSSON, Nils J. <em>Artificial Intelligence: A New Synthesis</em>. Morgan Kaufmann, 1998.</li>
+<li>THRUN, Sebastian; BURGARD, Wolfram; FOX, Dieter. <em>Probabilistic Robotics</em>. MIT Press, 2005.</li>
+<li>DEAN, Thomas L.; KANAZAWA, Keiji. <em>A Model for Reasoning About Persistence and Causation</em>. Computational Intelligence, v. 5, n. 3, p. 142-150, 1989.</li>
+</ul>
+<hr />
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Voltar para o topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/JeffersonSenaa/portifolio-IA" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/in/jefferson-sena/" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5m282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky", "content.code.copy", "navigation.sections", "navigation.expand", "navigation.top", "search.highlight", "search.share"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.56ea9cef.min.js"></script>
+      
+    
+  </body>
+</html>
