@@ -561,6 +561,11 @@ print("\n(Em um portfólio real, gráficos mostrando a redução do ruído seria
 
 ```
 
+### Conclusão
+
+Este portfólio buscou explorar a essência da IA na gestão da incerteza, sendo uma peça fundamental para sistemas que operam no mundo real. Discutimos como a Teoria da Probabilidade e a Regra de Bayes oferecem uma base robusta para quantificar crenças e realizar inferências, superando as limitações da lógica booleana. As Redes Bayesianas, apresentadas como modelos gráficos são eficientes para representar e raciocinar sobre dependências complexas.
+
+Também aprofundamos no raciocínio probabilístico temporal, com Modelos Ocultos de Markov (HMMs), essenciais para filtrar e prever estados em sequências de tempo. Finalmente, abordamos os Filtros de Kalman, destacando sua otimização na estimação de estados contínuos em sistemas dinâmicos lineares. Em síntese, obter domínio sobre esses conceitos é crucial para construir IA robustas que operam com eficácia e confiança em ambientes ambíguos, permitindo que as máquinas aprendam e ajam inteligentemente apesar da informação imperfeita.
 
 ---
 
